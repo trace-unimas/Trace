@@ -1,0 +1,298 @@
+.navbar{
+    background: #040a3c;
+}
+.hero-title-container {
+    background: linear-gradient(rgba(4, 10, 60, 0.59), rgba(4, 10, 60, 0.59)), url('../images/trace-group-photo.png');    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 100%; /* Ensures the container takes full width */
+}
+
+.hero-title-text {
+    text-align: center; /* Center the text horizontally */
+    font-family: "SF Pro Display Medium", sans-serif;
+
+}
+
+.hero-title h1 {
+    font-size: 3rem;
+    margin-bottom: 0; /* Remove margin to keep headings close together */
+}
+
+.about-text{
+    font-family: "SF Pro Display Regular", sans-serif;
+    font-size: 1.5rem;
+    margin: 20px 0;
+
+
+}
+
+.about-container{
+    padding: 50px;
+    text-align: center;
+}
+
+.about-text span{
+    color: #040a3c;
+    font-family: "SF Pro Display Bold", sans-serif;
+}
+
+.galerie {
+    width: 80%;
+    max-width: 1300px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img{
+    width: 100%;
+    margin: 0 auto;
+}
+.item{
+    width: 1000px;
+    height: auto;
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.item img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1200px;
+}
+.close {
+    color: #f1f1f1;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.modal-content {
+    position: relative;
+    cursor: none; /* Hide the cursor to show only the magnifying glass */
+}
+
+.magnifier-lens {
+    position: absolute;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /* Size of the lens: */
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    /* This makes the lens a circle */
+    pointer-events: none; /* Ignore the lens when interacting */
+    display: none; /* Start with lens hidden */
+}
+
+.modal:hover .magnifier-lens {
+    display: block; /* Show lens when hovering over the modal */
+}
+
+
+.magnifier-lens {
+    position: absolute;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: zoom-in;
+    width: 100px; /* adjust size as necessary */
+    height: 100px; /* adjust size as necessary */
+    display: none; /* initially hidden */
+}
+
+@media (max-width: 768px) {
+    .item{
+        width: 600px;
+        height: auto;
+        margin: 10px;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    .item img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto
+    }
+    .image-container{
+        margin: 0;
+    }
+
+    .image-container img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-text{
+        font-size: 14px;
+    }
+    .image-container-exhibitor{
+        width: 100%;
+    }
+    .image-container-exhibitor img{
+        width: 100%;
+    }
+}
+
+.hero-title-container1 {
+    background: linear-gradient(rgba(4, 10, 60, 0.59), rgba(4, 10, 60, 0.59)), url('../images/handshake.jpg');    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 100%; /* Ensures the container takes full width */
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+}
+
+/* Override the default styles for the nav-pills */
+.nav-pills .nav-link {
+    color: rgba(4, 10, 60); /* Text color */
+    background-color: #ffffff; /* Background color */
+    border: 1px solid transparent; /* Border color */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link:focus {
+    color: #ffffff; /* Text color */
+    background-color: #040a3c; /* Active/Hover/Focus background color */
+    border-color: #040a3c; /* Border color for active, hover, and focus states */
+}
+
+
+.info-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+
+}
+
+.image-container{
+    width: auto;
+    height: 400px ;
+    overflow: hidden;
+    flex-shrink: 0;
+
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #040a3c;
+}
+.position{
+    font-size: 15px;
+    font-weight: 500;
+    color: #040a3c;
+}
+
+.location{
+    font-size: 15px;
+    font-weight: 500;
+    color: #040a3c;
+}
+
+.title{
+    font-size: 50px;
+    color: #040a3c;
+    font-family: "SF Pro Display Bold", sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.partners img{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.partners-title, .exhibitor-title{
+    font-size: 40px;
+    color: #040a3c;
+    font-family: "SF Pro Display Bold", sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.exhibitor {
+    text-align: center;
+}
+
+.image-container-exhibitor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the container horizontally */
+    width: 90%; /* Set the width of the container */
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.image-container-exhibitor img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+

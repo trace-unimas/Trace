@@ -1,0 +1,340 @@
+.logo {
+    width: 87px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    background: white;
+    padding: 1px 60px;
+}
+
+body {
+    font-family: 'SF Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.learn-more-btn {
+    background-color: #010953;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
+
+.nav-item {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation-name: fadeIn;
+    animation-duration: 2s; /* Controls the speed of the animation */
+    animation-fill-mode: forwards; /* Ensures the element remains visible after the animation */
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.exhibitor-btn {
+    background-color: #010953;
+    color: white;
+    font-weight: bold;
+    padding: 10px 90px;
+    border-radius: 0px;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make it inline-block if necessary */
+}
+
+.exhibitor-btn:hover {
+    background-color: #ffffff;
+    color: #040a3c;
+}
+
+/* General styling for the dropdown */
+.navbar .dropdown-menu {
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 0px; /* Optional: rounded corners for Material look */
+    margin-top: 0; /* Remove default Bootstrap spacing */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for a better feel */
+    display: none;
+}
+
+/* Adjust the link appearance */
+.navbar .nav-link {
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-item:hover .nav-link {
+}
+
+/* Styling when dropdown is active/hovered */
+.navbar .nav-item.dropdown:hover .dropdown-menu.show,
+.navbar .nav-item.dropdown .dropdown-menu.show {
+    display: block;
+    opacity: 1; /* Make visible */
+    transform: translateY(0); /* Move to natural position */
+    pointer-events: auto; /* Allow interaction */
+}
+
+/* Optional: Add material design ripple effect */
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #eeeeee; /* Material ripple effect color */
+}
+
+.navbar {
+    position: relative; /* Ensures navbar is the relative container for absolute positioning */
+    height: 89px; /* Example fixed height, adjust based on your design */
+}
+
+.navbar .nav-link {
+    position: relative;
+    overflow: hidden; /* Keeps the line from extending outside */
+    line-height: 60px; /* Aligns text vertically; adjust to navbar's height */
+    height: 89px; /* Ensures full height alignment */
+    padding: 0 15px; /* Example padding; adjust to your design */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Adjust if your nav items or navbar has specific padding */
+    left: 0;
+    width: 0; /* Initially hidden */
+    height: 4px; /* Thickness of the line */
+    background-color: #ffffff; /* Color of the line, adjust as necessary */
+    transition: width 0.3s ease; /* Smooth transition for the animation */
+}
+
+.navbar .nav-link:hover::after {
+    width: 100%; /* Full width on hover */
+}
+
+.active .nav-link::after {
+    width: 100%; /* Full width when active */
+}
+
+.navbar .nav-link::after {
+    width: 0; /* Ensures the line is hidden initially */
+}
+
+.navbar .nav-link {
+    position: relative;
+    overflow: hidden; /* Ensures the pseudo-element doesn't extend outside the link area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px; /* Adjust padding as needed */
+}
+
+.navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Aligns at the bottom of the link */
+    left: 0;
+    width: 0; /* Starts hidden */
+    height: 4px; /* Thickness of the underline */
+    background-color: #ffffff; /* Color of the underline */
+    transition: width 0.3s ease; /* Smooth transition for showing the line */
+}
+
+/* Styling for hover - optional if you only want it on active */
+.navbar .nav-link:hover::after {
+    width: 100%; /* Full width on hover */
+}
+
+/* Styling for active state */
+.navbar .nav-link.active::after,
+.navbar .nav-link.active:hover::after { /* Ensures the line is also full width on hover when active */
+    width: 100%; /* Full width to show it's active */
+}
+
+footer {
+    background: linear-gradient(rgba(0, 47, 255, 0.2), rgba(7, 34, 126, 0.2)), url("../images/background.png");
+    background-size: cover;
+    padding: 30px;
+    margin-top: 90px;
+}
+
+.footer-title {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "SF Pro Display Medium", sans-serif;
+    color: #fff;
+}
+
+.socials-icon {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px; /* Consistent with SVG size */
+    height: 35px; /* Consistent with SVG size */
+    border-radius: 50%;
+    margin: 20px 5px; /* Spacing between icons */
+    overflow: hidden; /* Ensures nothing spills outside the circle */
+    border: 1px solid white; /* Optional border for aesthetics */
+    background-color: transparent; /* Default background */
+    color: white; /* Default icon color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and color */
+}
+
+/* Apply the hover color to SVG using currentColor */
+.socials-icon:hover {
+    background-color: white; /* White background on hover */
+    color: #040a3c /* Change icon color on hover */
+}
+
+.socials-icon svg {
+    width: 50%; /* Fill the container */
+    height: auto; /* Maintain aspect ratio */
+    fill: currentColor; /* Inherit color from parent */
+    transition: fill 0.3s ease; /* Smooth transition for the fill color */
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list {
+    margin-top: 20px;
+}
+
+.learn-more-btn:hover {
+    background-color: #063880;
+    color: #f2f5f9;
+}
+
+.title-header {
+    background-color: #040a3c;
+    color: white;
+    padding: 30px;
+    font-family: "SF Pro Display Medium", sans-serif;
+}
+
+.title-text {
+    margin-left: 30px;
+}
+
+.navbar {
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-logo img {
+    width: 285px;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler {
+        border-color: rgba(0, 0, 0, .1); /* Optional: if you want to change the toggler icon color */
+    }
+
+    /* This ensures the background of the collapsed menu is white */
+    .navbar-collapse.collapsing {
+        background-color: rgba(4, 10, 60, 0.87); /* Intermediate state during transition */
+    }
+
+    .navbar-collapse.collapse.show {
+        background-color: rgba(4, 10, 60, 0.87); /* When fully shown */
+    }
+
+    /* This ensures the links inside the collapsed navbar are visible against the white background */
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 0;
+        color: #ffffff; /* Ensures visibility on white background */
+    }
+
+    /* Optional: Adjustments for hover effects to enhance visibility */
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link:focus {
+        color: #ffffff; /* Darker color for better contrast */
+    }
+
+    /* Make sure the navbar brand has a transparent background by default */
+    .navbar-brand {
+        background-color: transparent;
+        transition: background-color 0.3s ease; /* Smooth transition for the background color */
+    }
+
+    .exhibitor-btn:hover {
+        background-color: #010953;
+        color: white;
+    }
+
+    /* Change the background color when navbar is collapsed and toggled */
+    .navbar-toggler.collapsed + .navbar-collapse {
+        .navbar-brand {
+            background-color: white; /* Only apply white background in toggled state */
+        }
+    }
+
+    .nav-item {
+        margin-right: 10px; /* Reduce margin between items */
+    }
+
+    .nav-link {
+        padding: 0 10px; /* Reduce padding on each side */
+    }
+    .footer-logo img {
+        width: 100px; /* Adjust for mobile */
+    }
+    .footer {
+        padding: 20px;
+        margin-top: 30px;
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;!important;
+    }
+
+    .logo {
+        width: 79px;
+    }
+    .navbar-brand {
+        background: white;
+    }
+    .footer-logo img {
+        width: 300px; /* Adjust for mobile */
+    }
+
+    .navbar-toggler {
+        margin-right: 8px;
+    }
+}
