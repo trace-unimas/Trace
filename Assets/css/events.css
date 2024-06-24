@@ -28,6 +28,29 @@
 
 }
 
+.subtext-trace{
+    font-size: 20px;
+    font-family: "SF Pro Display Regular", sans-serif;
+    height:fit-content;
+    margin-top: 80px;
+}
+.subtext-title{
+    font-size: 54px;
+    font-weight: bold;
+    font-family: "SF Pro Display Medium", sans-serif;
+}
+
+.subtext-description{
+    font-size: 24px;
+    font-family: "SF Pro Display Light", sans-serif;
+    margin-bottom: 50px;
+}
+
+.subtext-p{
+    font-size: 20px;
+    color: rgba(68, 68, 101, 0.83);
+}
+
 .event-card-image-tracetour{
     background: linear-gradient(to right, rgba(17, 16, 107, 0.84), rgba(2, 0, 113, 0.22)), url("../images/trace-tour-cover.png");
     background-size: cover;
@@ -203,9 +226,7 @@
         margin-left: 0;
     }
 
-}
 
-@media (max-width: 1000px) {
     .event-card {
         height: auto;
         width: 100%;
@@ -229,7 +250,11 @@
     }
 
     .event-text-pages {
-        font-size: 35px;
+        font-size: 30px;
+        height: 300px;
+        padding-top: 51px;
+        padding-left: 20px;
+        font-family: "SF Pro Display Medium", sans-serif;
     }
 
     .tentative-button {
@@ -237,27 +262,48 @@
         padding: 8px 16px;
     }
 
-    .learn-more-btn{
+    .learn-more-btn {
         font-size: 18px;
         padding: 10px 16px;
     }
 
     .key-figures {
-        height: auto;  /* Allow the container to expand as needed */
+        height: auto; /* Allow the container to expand as needed */
     }
+
     .key-figures .row {
-        flex-direction: column;  /* Stack key figures boxes in a column */
-        align-items: center;     /* Center the boxes */
+        flex-direction: column; /* Stack key figures boxes in a column */
+        align-items: center; /* Center the boxes */
     }
+
     .key-figures-box {
-        width: 80%;    /* Adjust width for mobile */
+        width: 80%; /* Adjust width for mobile */
         margin-left: 0;
     }
 
-
-    .subtext-trace{
+    .subtext-trace {
         height: fit-content;
         padding-bottom: 90px;
+        margin-top: 40px; /* Added margin-top for separation */
+    }
+
+    .subtext-p {
+        font-size: 20px;
+    }
+
+    .subtext-title {
+        font-size: 48px;
+    }
+
+    .guidebook-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-top: 20px; /* Added margin-top for separation */
+    }
+
+    .subtext-description{
+        font-size: 18px;
+        margin-top: 30px;
     }
 }
 
@@ -435,29 +481,6 @@ font-weight: bold;
 
 .booth-section{
     background: #f2f5f9;
-}
-
-.subtext-trace{
-    font-size: 20px;
-    font-family: "SF Pro Display Regular", sans-serif;
-    height: 50vh;
-    margin-top: 80px;
-}
-.subtext-title{
-    font-size: 54px;
-    font-weight: bold;
-    font-family: "SF Pro Display Medium", sans-serif;
-}
-
-.subtext-description{
-    font-size: 24px;
-    font-family: "SF Pro Display Light", sans-serif;
-    margin-bottom: 50px;
-}
-
-.subtext-p{
-    font-size: 20px;
-    color: rgba(68, 68, 101, 0.83);
 }
 
 .line-blue {
