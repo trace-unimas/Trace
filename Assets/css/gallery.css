@@ -293,6 +293,24 @@ input[name="categories"] {
     padding: 0 10px;
 }
 
+[value="all"]:checked ~ #gallery .gallery__figure[data-category] {
+    display: block;
+}
+
+[value="day_1"]:checked ~ #gallery .gallery__figure:not([data-category~="day_1"]),
+[value="day_2"]:checked ~ #gallery .gallery__figure:not([data-category~="day_2"])
+{
+    display: none;
+}
+
+[value="all"]:checked ~ .categories [for="all"],
+[value="day_1"]:checked ~ .categories [for="day_1"],
+[value="day_2"]:checked ~ .categories [for="day_2"]{
+    color: #ffffff;
+    background: #040a3c;
+    padding: 0 10px;
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
