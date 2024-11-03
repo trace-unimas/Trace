@@ -58,6 +58,13 @@
 
 }
 
+.event-card-image-mini-career-fair{
+    background: linear-gradient(to right, rgba(17, 16, 107, 0.84), rgba(2, 0, 113, 0.22)), url("../images/mini_career_fair.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
 .event-card-image-gpp{
     background: linear-gradient(to right, rgba(17, 16, 107, 0.84), rgba(2, 0, 113, 0.22)), url("../images/fscit_1.jpg");
     background-size: cover;
