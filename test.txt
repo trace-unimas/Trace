@@ -1,0 +1,34 @@
+.mini-career-fair-image-container{
+    width: auto;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.mini-career-fair-image-container img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+
+}
+
+.mini-career-fair-link {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+.mini-career-fair-btn {
+    margin-top: 10px;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    width: 100%; /* Make the button take the full width of its parent */
+    background: #040a3c;
+    padding: 20px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
+    display: block; /* Make the button a block element */
+}

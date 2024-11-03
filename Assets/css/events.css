@@ -305,10 +305,18 @@
         font-size: 18px;
         margin-top: 30px;
     }
+
+    .mini-career-fair-banner
+    {
+        display: none; /* Hide the mini career fair banner */
+    }
 }
 
 .hero-title-container {
-    background: linear-gradient(rgba(4, 10, 60, 0.59), rgba(4, 10, 60, 0.59)), url('../images/fair.jpg');    background-size: cover;
+    background: linear-gradient(rgba(4, 10, 60, 0.59), rgba(4, 10, 60, 0.59)), url('../images/fair.jpg');
+
+    background-size: auto, auto;
+    background-size: cover;
     background-position: center;
     height: 80vh;
     display: flex;
@@ -317,7 +325,8 @@
     color: #ffffff;
     text-align: center;
     margin: auto;
-    width: 100%; /* Ensures the container takes full width */
+    width: 100%;
+
 }
 
 .hero-title-text h1{
@@ -513,4 +522,47 @@ font-weight: bold;
     font-size: 30px;
     font-family: "SF Pro Display Medium", sans-serif;
     margin-top: 20px;
+}
+
+.mini-career-fair-banner
+{
+    background: url('../images/Banner_mini_career_fair_3.png');    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 100%; /* Ensures the container takes full width */
+}
+
+
+.mini-career-fair-image-container{
+    width: auto;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.mini-career-fair-image-container img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+
+}
+
+.mini-career-fair-link {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+
+
+.mini-career-fair-section{
+    background: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
