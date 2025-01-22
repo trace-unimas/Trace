@@ -1,0 +1,173 @@
+/* General form styling */
+#sponsorForm {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#sponsorForm h4 {
+  color: #010953;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#sponsorForm .form-label {
+  font-weight: 500;
+  color: #040a3c;
+}
+
+#sponsorForm .form-control,
+#sponsorForm .form-select {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  padding: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sponsorForm .form-control:focus,
+#sponsorForm .form-select:focus {
+  border-color: #010953;
+  box-shadow: 0 0 8px rgba(1, 9, 83, 0.2);
+  outline: none;
+}
+
+#sponsorForm .btn-primary {
+  background-color: #010953;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+#sponsorForm .btn-primary:hover {
+  background-color: #063880;
+  box-shadow: 0 4px 8px rgba(1, 9, 83, 0.2);
+}
+
+#sponsorForm .form-check-label a {
+  color: #010953;
+  text-decoration: underline;
+}
+
+#sponsorForm .form-check-input {
+  border: 1px solid #010953;
+}
+
+/* Form Section Styling */
+form .row {
+  margin-bottom: 20px;
+}
+
+form textarea {
+  resize: none;
+}
+
+/* Smooth transitions for all buttons and inputs */
+button,
+input,
+select,
+textarea {
+  transition: all 0.3s ease;
+}
+
+.ruby {
+  background-color: #d21d1dac;
+  border-radius: 8px;
+  padding: 20px;
+  color: white !important;
+}
+
+.card-h1 {
+  font-size: 38px;
+  font-family: SF Pro Display Black;
+  color: rgb(12, 0, 36);
+}
+
+.card-title {
+  font-size: 38px;
+  font-family: SF Pro Display Black;
+  color: white;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+}
+.card {
+  height: 100%;
+}
+
+.ruby-pricing {
+  background-color: rgb(217, 17, 17);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 99px;
+  width: fit-content;
+}
+
+.emerald {
+  background-color: #00a86b;
+  border-radius: 8px;
+  padding: 20px;
+  color: white !important;
+}
+
+.emerald-pricing {
+  background-color: #07573a;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 99px;
+  width: fit-content;
+}
+
+.sapphire {
+  background-color: #0077b6;
+  border-radius: 8px;
+  padding: 20px;
+  color: white !important;
+}
+
+.sapphire-pricing {
+  background-color: #0f3c55;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 99px;
+  width: fit-content;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #sponsorForm {
+    padding: 20px;
+  }
+
+  .title-header h1 {
+    font-size: 36px;
+  }
+
+  .title-header p {
+    font-size: 16px;
+  }
+}

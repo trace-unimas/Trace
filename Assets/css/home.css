@@ -1,11 +1,7 @@
 /* Existing .hero class styling */
 .hero {
 
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+
 }
 
 .navbar{
@@ -15,7 +11,7 @@
 }
 
 .background-nav-hero{
-    background-image: linear-gradient(to bottom, rgba(1, 9, 83, 0.87) 0%, rgba(69, 68, 129, 0.39) 100%), url('../images/fair.jpg');
+    background-image: linear-gradient(to bottom, rgba(1, 9, 83, 0.87) 0%, rgba(69, 68, 129, 0.39) 100%), url('../images/trace2024_main.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -26,11 +22,13 @@
     font-family: "SF Pro Display Bold", sans-serif;
 }
 .hero {
-    min-height: 80vh;  // This allows the container to expand if needed
+    height: 115vh;
     justify-content: center;
-    display: block;
     align-items: center;
     color: #fff;
+    min-height: 80vh;
+    padding-top:130px;
+    display: block;
     overflow: hidden;
 }
 
@@ -253,6 +251,17 @@ font-family: "SF Pro Display Medium", sans-serif;
         width: 100%;
 
         margin: 0 auto;
+    }
+
+    .hero{
+        padding-top: 120px;
+        height: 90vh;
+    }
+
+    .subtext-description{
+        padding-top:30px;
+        font-size: 20px;
+
     }
 
 

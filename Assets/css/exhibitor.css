@@ -1,0 +1,25 @@
+.Gold {
+  background: linear-gradient(to right, #ffd700, #ffc700, #e6ac00);
+
+  color: #000000;
+}
+.gold-package {
+  background-color: #ffd700;
+  color: #000000;
+}
+
+.Platinum {
+  background: linear-gradient(to right, #e5e4e2, #dcdcdc, #e8e8e8);
+  color: #000000;
+}
+
+.Silver {
+  background: linear-gradient(to right, #c0c0c0, #d3d3d3, #b0b0b0);
+}
+
+.download-ebook {
+  background-color: #010953;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+}

@@ -14,6 +14,7 @@
     width: 100%; /* Ensures the container takes full width */
 }
 
+
 .hero-title-text {
     text-align: center; /* Center the text horizontally */
     font-family: "SF Pro Display Medium", sans-serif;
@@ -140,7 +141,16 @@
     height: 100px; /* adjust size as necessary */
     display: none; /* initially hidden */
 }
+.tab-pane {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
 
+.tab-content {
+    overflow: visible;
+    width: 100%;
+}
 @media (max-width: 768px) {
     .item{
         width: 600px;
