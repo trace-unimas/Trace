@@ -40,14 +40,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const submissionDate = new Date();
     const formattedDate = formatMalaysianDateTime(submissionDate);
 
-    // Get all form values
     const formData = {
       submissionId: submissionId,
       submittedAt: formattedDate,
-      companyName: document.getElementById("companyName").value,
-      contactPerson: document.getElementById("contactPerson").value,
+      contactPerson:
+        document.getElementById("title").value +
+        " " +
+        document.getElementById("contactPerson").value,
       contactEmail: document.getElementById("contactEmail").value,
       contactPhone: document.getElementById("contactPhone").value,
+      companyName: document.getElementById("companyName").value,
       companyAddress: document.getElementById("companyAddress").value,
       industryType: document.getElementById("industryType").value,
       companyWebsite: document.getElementById("companyWebsite").value,

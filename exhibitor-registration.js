@@ -34,7 +34,10 @@ form.addEventListener("submit", function (event) {
     submission_id: submissionId,
     submission_date: submissionDate,
     company_name: document.getElementById("companyName").value,
-    contact_person: document.getElementById("contactPerson").value,
+    contact_person:
+      document.getElementById("title").value +
+      " " +
+      document.getElementById("contactPerson").value,
     contact_email: document.getElementById("contactEmail").value,
     contact_phone: document.getElementById("contactPhone").value,
     company_address: document.getElementById("companyAddress").value,

@@ -243,13 +243,23 @@
               <label for="contactPerson" class="form-label"
                 >Contact Person</label
               >
-              <input
-                type="text"
-                class="form-control"
-                id="contactPerson"
-                placeholder="Full name"
-                required
-              />
+              <div class="input-group">
+                <select
+                  class="form-select title-select rounded-end-0"
+                  id="title"
+                >
+                  <option selected>Mr.</option>
+                  <option>Mrs.</option>
+                  <option>Ms.</option>
+                </select>
+                <input
+                  type="text"
+                  class="form-control rounded-start-0"
+                  id="contactPerson"
+                  placeholder="Full name"
+                  required
+                />
+              </div>
             </div>
           </div>
 

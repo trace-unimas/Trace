@@ -223,6 +223,12 @@ textarea {
   border-radius: 8px;
 }
 
+.title-select {
+  max-width: 80px; /* Adjust width as needed */
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .contact-card {
   padding: 20px;
   background: white;
