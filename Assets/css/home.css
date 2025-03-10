@@ -1,303 +1,290 @@
 /* Existing .hero class styling */
+
+.navbar {
+  border-bottom: white solid 1px;
+  padding: 0;
+  box-shadow: none !important;
+}
+
+.background-nav-hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 9, 83, 0.87) 0%,
+      rgba(69, 68, 129, 0.39) 100%
+    ),
+    url("https://storage.googleapis.com/trace-unimas/trace2024_main.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.university-hero {
+  font-size: 37px;
+  font-weight: bold;
+  font-family: "SF Pro Display Bold", sans-serif;
+}
 .hero {
-
-
+  height: 115vh;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  min-height: 80vh;
+  padding-top: 130px;
+  display: block;
+  overflow: hidden;
 }
 
-.navbar{
-    border-bottom: white solid 1px;
-    padding:0;
-    box-shadow: none !important;
+.trace-hero {
+  font-size: 175px;
+  font-weight: bold;
+  font-family: "NEXT ART", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.background-nav-hero{
-    background-image: linear-gradient(to bottom, rgba(1, 9, 83, 0.87) 0%, rgba(69, 68, 129, 0.39) 100%), url('../images/trace2024_main.jpg');
-    background-size: cover;
-    background-position: center;
+.trace-name-hero {
+  font-size: 37px;
+  font-family: "SF Pro Text Thin", sans-serif;
 }
 
-.university-hero{
-    font-size: 37px;
-    font-weight: bold;
-    font-family: "SF Pro Display Bold", sans-serif;
-}
-.hero {
-    height: 115vh;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    min-height: 80vh;
-    padding-top:130px;
-    display: block;
-    overflow: hidden;
+.date-hero {
+  font-family: "SF Pro Display Bold", sans-serif;
 }
 
-.trace-hero{
-    font-size: 175px;
-    font-weight: bold;
-    font-family: "NEXT ART", sans-serif;
-    padding: 0;
-    margin: 0;
+.place-hero {
+  font-family: "SF Pro Display Bold", sans-serif;
 }
 
-.trace-name-hero{
-    font-size: 37px;
-    font-family: "SF Pro Text Thin", sans-serif;
-
+.hero-button {
+  background-color: #ffc107;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
-.date-hero{
-    font-family: "SF Pro Display Bold", sans-serif;
-}
-
-.place-hero{
-    font-family: "SF Pro Display Bold", sans-serif;
-
-}
-
-.hero-button{
-    background-color: #FFC107;
-    color: #000;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.subtext-trace{
-    font-size: 20px;
-    font-family: "SF Pro Display Regular", sans-serif;
-    height: 50vh;
-    margin-top: 80px;
+.subtext-trace {
+  font-size: 20px;
+  font-family: "SF Pro Display Regular", sans-serif;
+  height: 50vh;
+  margin-top: 80px;
 }
 
 .line-blue {
-    height: 10px;             /* Specifies the thickness of the line */
-    width: 91px;              /* Adjust the width as necessary */
-    background-color: #040a3c; /* Change the color to match your site's theme, #0056b3 is a shade of blue */
-    margin-top:26px;
-
+  height: 10px; /* Specifies the thickness of the line */
+  width: 91px; /* Adjust the width as necessary */
+  background-color: #040a3c; /* Change the color to match your site's theme, #0056b3 is a shade of blue */
+  margin-top: 26px;
 }
 
-.subtext-title{
-    font-size: 54px;
-    font-weight: bold;
-    font-family: "SF Pro Display Medium", sans-serif;
+.subtext-title {
+  font-size: 54px;
+  font-weight: bold;
+  font-family: "SF Pro Display Medium", sans-serif;
 }
 
-.subtext-description{
-    font-size: 24px;
-    font-family: "SF Pro Display Light", sans-serif;
-    margin-bottom: 50px;
+.subtext-description {
+  font-size: 24px;
+  font-family: "SF Pro Display Light", sans-serif;
+  margin-bottom: 50px;
 }
 
-.subtext-p{
-    font-size: 20px;
-    color: rgba(68, 68, 101, 0.83);
+.subtext-p {
+  font-size: 20px;
+  color: rgba(68, 68, 101, 0.83);
 }
 
 .key-figures {
-    background: linear-gradient(rgba(0, 47, 255, 0.2), rgba(7, 34, 126, 0.2)), url("../images/background.png");
-    background-size: cover;
-    background-position: center;
-    padding: 50px 0;
-    height: 70vh;
+  background: linear-gradient(rgba(0, 47, 255, 0.2), rgba(7, 34, 126, 0.2)),
+    url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  height: 70vh;
 }
 
-
-.key-figures-title{
-    font-size: 54px;
-    font-weight: bold;
-    font-family: "SF Pro Display Medium", sans-serif;
-    color: #fff;
+.key-figures-title {
+  font-size: 54px;
+  font-weight: bold;
+  font-family: "SF Pro Display Medium", sans-serif;
+  color: #fff;
 }
 
-.line-white{
-    height: 10px;             /* Specifies the thickness of the line */
-    width: 91px;              /* Adjust the width as necessary */
-    background-color: #fff; /* Change the color to match your site's theme, #0056b3 is a shade of blue */
-    margin-top:26px;
+.line-white {
+  height: 10px; /* Specifies the thickness of the line */
+  width: 91px; /* Adjust the width as necessary */
+  background-color: #fff; /* Change the color to match your site's theme, #0056b3 is a shade of blue */
+  margin-top: 26px;
 }
 
-.key-figures-box{
-    background-color: #0E4E69;
-    padding: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 210px;
-    width: 236px;
-    color: white;
+.key-figures-box {
+  background-color: #0e4e69;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 210px;
+  width: 236px;
+  color: white;
 }
-.key-figures-icon{
-    font-size: 50px;
-    color: #FFC107;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 60px;
+.key-figures-icon {
+  font-size: 50px;
+  color: #ffc107;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 60px;
 }
-.key-figures-number{
-font-family: "SF Pro Display Medium", sans-serif;
-    font-weight: bold;
-
-}
-
-.key-figures-parent{
-    display: flex;
-    justify-content: flex-end; /* Aligns children (the icon) to the right */
-    align-items: center; /* Optional: aligns children vertically in the middle */
+.key-figures-number {
+  font-family: "SF Pro Display Medium", sans-serif;
+  font-weight: bold;
 }
 
-
-.video-showcase{
-    background-color: #f2f5f9;
-    padding: 50px 0;
-    text-align: center;
+.key-figures-parent {
+  display: flex;
+  justify-content: flex-end; /* Aligns children (the icon) to the right */
+  align-items: center; /* Optional: aligns children vertically in the middle */
 }
 
-.video{
-
-    padding-top: 50px;
+.video-showcase {
+  background-color: #f2f5f9;
+  padding: 50px 0;
+  text-align: center;
 }
 
-.exhibitor{
-    text-align: center;
+.video {
+  padding-top: 50px;
 }
 
-.location{
-    padding: 50px 0;
-    height: 100vh;
-    margin-top: 30px;
-
-
+.exhibitor {
+  text-align: center;
 }
 
-.location-title{
-    font-size: 40px;
-    font-family: "SF Pro Display Medium", sans-serif;
-    color: #040a3c;
-    margin-bottom: 20px;
-    font-weight: bold;
+.location {
+  padding: 50px 0;
+  height: 100vh;
+  margin-top: 30px;
 }
 
-.location-name-container{
-    padding-bottom:30px ;
-    padding-top:30px;
-    margin-bottom:30px;
-}
-.location-title-heading{
-    font-size: 30px;
-    font-family: "SF Pro Display Medium", sans-serif;
-    color: #040a3c;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-align: center;
+.location-title {
+  font-size: 40px;
+  font-family: "SF Pro Display Medium", sans-serif;
+  color: #040a3c;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.location-text{
-    font-size: 20px;
-    font-family: "SF Pro Display Regular", sans-serif;
-    color: #040a3c;
-    margin-bottom: 20px;
-    text-align: center;
+.location-name-container {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.location-title-heading {
+  font-size: 30px;
+  font-family: "SF Pro Display Medium", sans-serif;
+  color: #040a3c;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.location-text {
+  font-size: 20px;
+  font-family: "SF Pro Display Regular", sans-serif;
+  color: #040a3c;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .location-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .location-image img {
-    width: 50%;
-    height: auto;
-    display: block; /* Ensures the image is treated as a block element */
-    margin: 0 auto; /* Centers the image horizontally */
+  width: 50%;
+  height: auto;
+  display: block; /* Ensures the image is treated as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
 }
 /* Mobile styles */
 @media (max-width: 768px) {
-    .key-figures {
-        height: auto;  /* Allow the container to expand as needed */
-    }
-    .key-figures .row {
-        flex-direction: column;  /* Stack key figures boxes in a column */
-        align-items: center;     /* Center the boxes */
-    }
-    .key-figures-box {
-        width: 80%;    /* Adjust width for mobile */
-        margin-left: 0;
-    }
+  .key-figures {
+    height: auto; /* Allow the container to expand as needed */
+  }
+  .key-figures .row {
+    flex-direction: column; /* Stack key figures boxes in a column */
+    align-items: center; /* Center the boxes */
+  }
+  .key-figures-box {
+    width: 80%; /* Adjust width for mobile */
+    margin-left: 0;
+  }
 
-    .university-hero{
-        font-size: 20px;
-    }
-    .trace-hero{
-        font-size: 100px;
-    }
+  .university-hero {
+    font-size: 20px;
+  }
+  .trace-hero {
+    font-size: 100px;
+  }
 
-    .trace-name-hero{
-        font-size: 20px;
-    }
+  .trace-name-hero {
+    font-size: 20px;
+  }
 
-    .subtext-trace{
-        height: fit-content;
-        padding-bottom: 90px;
-    }
+  .subtext-trace {
+    height: fit-content;
+    padding-bottom: 90px;
+  }
 
-    .location{
-        height: fit-content;
-    }
-    .location-image img{
-        width: 100%;
+  .location {
+    height: fit-content;
+  }
+  .location-image img {
+    width: 100%;
 
-        margin: 0 auto;
-    }
+    margin: 0 auto;
+  }
 
-    .hero{
-        padding-top: 120px;
-        height: 90vh;
-    }
+  .hero {
+    padding-top: 120px;
+    height: 90vh;
+  }
 
-    .subtext-description{
-        padding-top:30px;
-        font-size: 20px;
-
-    }
-
-
+  .subtext-description {
+    padding-top: 30px;
+    font-size: 20px;
+  }
 }
 
 .responsive-iframe {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    height: 0;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  height: 0;
 }
 
 .responsive-iframe iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
-.image-container{
-    padding-top: 50px;
+.image-container {
+  padding-top: 50px;
 }
-.image-container img{
-    width: 100%;
-    margin: 0 auto;
-
+.image-container img {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.exhibitor-title-heading{
-
-        font-size: 50px;
-        font-weight: bold;
-        font-family: "SF Pro Display Medium", sans-serif;
-        text-align: center;
-        color: #040a3c;
-        margin-top: 40px;
-
+.exhibitor-title-heading {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "SF Pro Display Medium", sans-serif;
+  text-align: center;
+  color: #040a3c;
+  margin-top: 40px;
 }
