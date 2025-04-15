@@ -207,6 +207,12 @@
   display: block; /* Ensures the image is treated as a block element */
   margin: 0 auto; /* Centers the image horizontally */
 }
+
+.poster-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Mobile styles */
 @media (max-width: 768px) {
   .key-figures {

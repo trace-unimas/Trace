@@ -1,861 +1,863 @@
 .event-card {
-  position: relative; /* Relative positioning for absolute positioning of the button */
-  margin-top: 50px;
-  background: linear-gradient(
-      to right,
-      rgba(17, 16, 107, 0.84),
-      rgba(2, 0, 113, 0.22)
-    ),
-    url("../images/fair.jpg");
+	position: relative; /* Relative positioning for absolute positioning of the button */
+	margin-top: 50px;
+	background: linear-gradient(
+			to right,
+			rgba(17, 16, 107, 0.84),
+			rgba(2, 0, 113, 0.22)
+		),
+		url("../images/fair.jpg");
 
-  margin-bottom: 20px;
-  background-size: cover;
-  background-position: center;
-  width: 973px;
-  height: 481px;
-  color: #ffffff;
-  text-align: left;
+	margin-bottom: 20px;
+	background-size: cover;
+	background-position: center;
+	width: 973px;
+	height: 481px;
+	color: #ffffff;
+	text-align: left;
+}
+
+.sub-events {
+	background-color: #c5d4ed;
 }
 
 .event-card-image-trace2023 {
-  background: linear-gradient(
-      to right,
-      rgba(17, 16, 107, 0.84),
-      rgba(2, 0, 113, 0.22)
-    ),
-    url("../images/trace-group-photo.png");
-  background-size: cover;
-  background-position: center;
+	background: linear-gradient(
+			to right,
+			rgba(17, 16, 107, 0.84),
+			rgba(2, 0, 113, 0.22)
+		),
+		url("../images/trace-group-photo.png");
+	background-size: cover;
+	background-position: center;
 }
 
 .subtext-trace {
-  font-size: 20px;
-  font-family: "SF Pro Display Regular", sans-serif;
-  height: fit-content;
-  margin-top: 80px;
+	font-size: 20px;
+	font-family: "SF Pro Display Regular", sans-serif;
+	height: fit-content;
+	margin-top: 80px;
 }
 
 .subtext-title {
-  font-size: 54px;
-  font-weight: bold;
-  font-family: "SF Pro Display Medium", sans-serif;
+	font-size: 54px;
+	font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
 }
 
 .subtext-description {
-  font-size: 24px;
-  font-family: "SF Pro Display Light", sans-serif;
-  margin-bottom: 50px;
+	font-size: 24px;
+	font-family: "SF Pro Display Light", sans-serif;
+	margin-bottom: 50px;
 }
 
 .subtext-p {
-  font-size: 20px;
-  color: rgba(68, 68, 101, 0.83);
+	font-size: 20px;
+	color: rgba(68, 68, 101, 0.83);
 }
 
 .event-card-image-tracetour {
-  background: linear-gradient(
-      to right,
-      rgba(17, 16, 107, 0.84),
-      rgba(2, 0, 113, 0.22)
-    ),
-    url("../images/trace-tour-cover.png");
-  background-size: cover;
-  background-position: center;
+	background: linear-gradient(
+			to right,
+			rgba(17, 16, 107, 0.84),
+			rgba(2, 0, 113, 0.22)
+		),
+		url("../images/trace-tour-cover.png");
+	background-size: cover;
+	background-position: center;
 }
 
 .event-card-image-mini-career-fair {
-  background: linear-gradient(
-      to right,
-      rgba(17, 16, 107, 0.84),
-      rgba(2, 0, 113, 0.22)
-    ),
-    url("../images/mini_career_fair.png");
-  background-size: cover;
-  background-position: center;
+	background: linear-gradient(
+			to right,
+			rgba(17, 16, 107, 0.84),
+			rgba(2, 0, 113, 0.22)
+		),
+		url("../images/mini_career_fair.png");
+	background-size: cover;
+	background-position: center;
 }
 
 .event-card-image-gpp {
-  background: linear-gradient(
-      to right,
-      rgba(17, 16, 107, 0.84),
-      rgba(2, 0, 113, 0.22)
-    ),
-    url("../images/fscit_1.jpg");
-  background-size: cover;
-  background-position: center;
+	background: linear-gradient(
+			to right,
+			rgba(17, 16, 107, 0.84),
+			rgba(2, 0, 113, 0.22)
+		),
+		url("../images/fscit_1.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
 .event-card-image-logo-competition {
-  background: linear-gradient(
-      to right,
-      rgba(17, 16, 107, 0.84),
-      rgba(2, 0, 113, 0.22)
-    ),
-    url("../images/logo-competition1.png");
-  background-size: cover;
-  background-position: center;
+	background: linear-gradient(
+			to right,
+			rgba(17, 16, 107, 0.84),
+			rgba(2, 0, 113, 0.22)
+		),
+		url("../images/logo-competition1.png");
+	background-size: cover;
+	background-position: center;
 }
 
 .event-card:hover {
-  transform: scale(1.05); /* Scales up the card by 5% on hover */
+	transform: scale(1.05); /* Scales up the card by 5% on hover */
 }
 
 /* Keyframes for additional smoothness and responsiveness */
 @keyframes scaleUp {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.05);
-  }
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.05);
+	}
 }
 
 .event-card:hover {
-  animation: scaleUp 0.5s forwards; /* Uses the keyframes for animation on hover */
+	animation: scaleUp 0.5s forwards; /* Uses the keyframes for animation on hover */
 }
 
 .event-text {
-  height: 100%;
-  padding-top: 180px;
-  padding-left: 80px;
-  font-family: "SF Pro Display Medium", sans-serif;
-  font-size: 45px;
+	height: 100%;
+	padding-top: 180px;
+	padding-left: 80px;
+	font-family: "SF Pro Display Medium", sans-serif;
+	font-size: 45px;
 }
 
 .container-button {
-  position: absolute; /* Absolute positioning relative to the nearest positioned ancestor (event-card) */
-  bottom: 50px; /* 20px from the bottom */
-  right: 30px; /* 20px from the right */
+	position: absolute; /* Absolute positioning relative to the nearest positioned ancestor (event-card) */
+	bottom: 50px; /* 20px from the bottom */
+	right: 30px; /* 20px from the right */
 }
 
 .card-pos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .line-white {
-  height: 10px; /* Specifies the thickness of the line */
-  width: 91px; /* Adjust the width as necessary */
-  background-color: #fff; /* White color line */
-  margin-top: 20px; /* Space between the text and the line */
+	height: 10px; /* Specifies the thickness of the line */
+	width: 91px; /* Adjust the width as necessary */
+	background-color: #fff; /* White color line */
+	margin-top: 20px; /* Space between the text and the line */
 }
 
 .event-title {
-  margin-top: 40px;
-  font-size: 41px;
-  font-weight: bold;
-  font-family: "SF Pro Display Medium", sans-serif;
-  text-align: center;
-  color: #040a3c;
+	margin-top: 40px;
+	font-size: 41px;
+	font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
+	text-align: center;
+	color: #040a3c;
 }
 
 .event-text-pages {
-  height: 100%;
-  padding-top: 90px;
-  padding-left: 80px;
-  font-family: "SF Pro Display Medium", sans-serif;
-  font-size: 45px;
+	height: 100%;
+	padding-top: 90px;
+	padding-left: 80px;
+	font-family: "SF Pro Display Medium", sans-serif;
+	font-size: 45px;
 }
 
 .event-details-gpp {
-  margin-top: 50px;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  flex-shrink: 0;
+	margin-top: 50px;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	flex-shrink: 0;
 }
 
 .event-details-gpp img {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .tentative-button {
-  background-color: #010953;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 0px;
-  border: none;
-  width: 100%;
-  margin-top: 20px;
+	background-color: #010953;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 0px;
+	border: none;
+	width: 100%;
+	margin-top: 20px;
 }
 
 .tentative-button:hover {
-  background-color: #9fa9ff;
-  color: #010953;
-  animation: ease-in-out 0.3ms;
+	background-color: #9fa9ff;
+	color: #010953;
+	animation: ease-in-out 0.3ms;
 }
 
 .image-carousel {
-  overflow: hidden;
-  flex-shrink: 0;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 97%; /* Make it take up 80% of the container width */
-  max-width: 1500px; /* Maximum width */
-  margin: 0 auto; /* Center the carousel */
+	overflow: hidden;
+	flex-shrink: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 97%; /* Make it take up 80% of the container width */
+	max-width: 1500px; /* Maximum width */
+	margin: 0 auto; /* Center the carousel */
 }
 
 /* Option 2: Control the height of the carousel images */
 .carousel-item img {
-  height: 500px; /* Fixed height */
-  object-fit: cover; /* Maintain aspect ratio and cover container */
-  width: 100%; /* Full width */
+	height: 500px; /* Fixed height */
+	object-fit: cover; /* Maintain aspect ratio and cover container */
+	width: 100%; /* Full width */
 }
 
 /* Option 3: Set both width and height with aspect ratio */
 .carousel {
-  width: 80%;
-  max-width: 1000px;
-  margin: 40px auto;
+	width: 80%;
+	max-width: 1000px;
+	margin: 40px auto;
 }
 
 .carousel-item {
-  aspect-ratio: 16/9; /* Maintain 16:9 aspect ratio */
+	aspect-ratio: 16/9; /* Maintain 16:9 aspect ratio */
 }
 
 .carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 /* Add this to your CSS */
 .carousel-control-prev,
 .carousel-control-next {
-  width: 50px; /* Make the clickable area more defined */
-  height: 50px; /* Make it a square */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-  border-radius: 50%; /* Make it circular */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjust for perfect centering */
+	width: 50px; /* Make the clickable area more defined */
+	height: 50px; /* Make it a square */
+	background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+	border-radius: 50%; /* Make it circular */
+	top: 50%; /* Center vertically */
+	transform: translateY(-50%); /* Adjust for perfect centering */
 }
 
 /* Adjust positioning for prev/next buttons */
 .carousel-control-prev {
-  left: 20px; /* Move slightly away from the edge */
+	left: 20px; /* Move slightly away from the edge */
 }
 
 .carousel-control-next {
-  right: 20px; /* Move slightly away from the edge */
+	right: 20px; /* Move slightly away from the edge */
 }
 
 /* Optional: Add hover effect */
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+	background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
 }
 
 /* Optional: Make the arrows themselves more visible */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  width: 30px;
-  height: 30px;
+	width: 30px;
+	height: 30px;
 }
 
 .search-container {
-  background-color: #040a3c;
-  padding: 2rem;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
+	background-color: #040a3c;
+	padding: 2rem;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
 }
 
 .search-bar {
-  width: 100%;
-  padding: 1rem;
-  border: none;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
-  font-size: 1rem;
+	width: 100%;
+	padding: 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
 }
 
 .filter-buttons {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
 }
 
 .filter-button {
-  background-color: transparent;
-  border: 2px solid #040a3c;
-  padding: 0.5rem 1rem;
-  border-radius: 2rem;
-  cursor: pointer;
-  color: white;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+	background-color: transparent;
+	border: 2px solid #040a3c;
+	padding: 0.5rem 1rem;
+	border-radius: 2rem;
+	cursor: pointer;
+	color: white;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
 }
 
 .company-card {
-  background: #040a3c;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: transform 0.2s;
+	background: #040a3c;
+	border-radius: 1rem;
+	padding: 1.5rem;
+	margin-bottom: 1rem;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: transform 0.2s;
 }
 
 .company-card:hover {
-  transform: translateY(-2px);
+	transform: translateY(-2px);
 }
 
 .company-info {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
 }
 
 .company-logo {
-  width: 100px;
-  height: 100px;
-  background: white;
-  border-radius: 12px;
-  object-fit: contain; /* Ensures the image maintains its aspect ratio */
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius: 12px;
+	object-fit: contain; /* Ensures the image maintains its aspect ratio */
 }
 
 .exhibitor-badge {
-  background-color: white;
-  padding: 0.25rem 0.75rem;
-  border-radius: 1rem;
-  font-size: 0.875rem;
-  color: #040a3c;
-  margin-right: 1rem;
-  margin-bottom: 12px;
-  width: fit-content;
+	background-color: white;
+	padding: 0.25rem 0.75rem;
+	border-radius: 1rem;
+	font-size: 0.875rem;
+	color: #040a3c;
+	margin-right: 1rem;
+	margin-bottom: 12px;
+	width: fit-content;
 }
 
 .location-badge {
-  background-color: #040a3c;
-  color: white;
-  padding: 0.25rem 0.75rem;
-  border-radius: 1rem;
-  font-size: 2.5rem;
+	background-color: #040a3c;
+	color: white;
+	padding: 0.25rem 0.75rem;
+	border-radius: 1rem;
+	font-size: 2.5rem;
 }
 
 .bookmark-btn {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  padding: 0.5rem;
-  font-size: 30px;
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 0.5rem;
+	font-size: 30px;
 }
 
 .filter-options {
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 .bookmark-filter {
-  background-color: #fff;
-  border: 2px solid #333;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+	background-color: #fff;
+	border: 2px solid #333;
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
 .bookmark-filter:hover {
-  background-color: #f0f0f0;
+	background-color: #f0f0f0;
 }
 
 .search-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-bottom: 2rem;
 }
 
 .pagination-controls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  gap: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	gap: 1rem;
 }
 
 .pagination-btn {
-  padding: 0.5rem 1rem;
-  border: 1px solid #ddd;
-  background: white;
-  cursor: pointer;
-  border-radius: 4px;
+	padding: 0.5rem 1rem;
+	border: 1px solid #ddd;
+	background: white;
+	cursor: pointer;
+	border-radius: 4px;
 }
 
 .pagination-btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+	opacity: 0.5;
+	cursor: not-allowed;
 }
 
 .pagination-btn:hover:not(:disabled) {
-  background: #f0f0f0;
+	background: #f0f0f0;
 }
 
 .page-numbers {
-  padding: 0.5rem 1rem;
+	padding: 0.5rem 1rem;
 }
 
 .company-list {
-  min-height: 600px; /* Adjust based on your needs */
-  position: relative;
+	min-height: 600px; /* Adjust based on your needs */
+	position: relative;
 }
 
 .company-card {
-  opacity: 1;
-  transition: opacity 0.3s ease;
+	opacity: 1;
+	transition: opacity 0.3s ease;
 }
 
 .pagination-controls {
-  margin-top: 20px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+	margin-top: 20px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
 }
 
 @media (max-width: 1000px) {
-  .event-card {
-    height: auto;
-    width: 100%;
-    margin-top: 20px;
-  }
+	.event-card {
+		height: auto;
+		width: 100%;
+		margin-top: 20px;
+	}
 
-  .event-text {
-    padding-left: 20px;
-    font-size: 30px;
-    padding-top: 100px;
-  }
+	.event-text {
+		padding-left: 20px;
+		font-size: 30px;
+		padding-top: 100px;
+	}
 
-  .container-button {
-    bottom: 30px;
-    right: 20px;
-  }
+	.container-button {
+		bottom: 30px;
+		right: 20px;
+	}
 
-  .key-figures {
-    height: auto; /* Allow the container to expand as needed */
-  }
+	.key-figures {
+		height: auto; /* Allow the container to expand as needed */
+	}
 
-  .key-figures .row {
-    flex-direction: column; /* Stack key figures boxes in a column */
-    align-items: center; /* Center the boxes */
-  }
+	.key-figures .row {
+		flex-direction: column; /* Stack key figures boxes in a column */
+		align-items: center; /* Center the boxes */
+	}
 
-  .key-figures-box {
-    width: 80%; /* Adjust width for mobile */
-    margin-left: 0;
-  }
+	.key-figures-box {
+		width: 80%; /* Adjust width for mobile */
+		margin-left: 0;
+	}
 
-  .event-card {
-    height: auto;
-    width: 100%;
-    margin-top: 20px;
-  }
+	.event-card {
+		height: auto;
+		width: 100%;
+		margin-top: 20px;
+	}
 
-  .event-text {
-    padding-left: 15px;
-    font-size: 25px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
+	.event-text {
+		padding-left: 15px;
+		font-size: 25px;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
 
-  .container-button {
-    bottom: 20px;
-    right: 10px;
-  }
+	.container-button {
+		bottom: 20px;
+		right: 10px;
+	}
 
-  .event-title {
-    font-size: 30px;
-  }
+	.event-title {
+		font-size: 30px;
+	}
 
-  .event-text-pages {
-    font-size: 30px;
-    height: 300px;
-    padding-top: 51px;
-    padding-left: 20px;
-    font-family: "SF Pro Display Medium", sans-serif;
-  }
+	.event-text-pages {
+		font-size: 30px;
+		height: 300px;
+		padding-top: 51px;
+		padding-left: 20px;
+		font-family: "SF Pro Display Medium", sans-serif;
+	}
 
-  .tentative-button {
-    font-size: 18px;
-    padding: 8px 16px;
-  }
+	.tentative-button {
+		font-size: 18px;
+		padding: 8px 16px;
+	}
 
-  .learn-more-btn {
-    font-size: 18px;
-    padding: 10px 16px;
-  }
+	.learn-more-btn {
+		font-size: 18px;
+		padding: 10px 16px;
+	}
 
-  .key-figures {
-    height: auto; /* Allow the container to expand as needed */
-  }
+	.key-figures {
+		height: auto; /* Allow the container to expand as needed */
+	}
 
-  .key-figures .row {
-    flex-direction: column; /* Stack key figures boxes in a column */
-    align-items: center; /* Center the boxes */
-  }
+	.key-figures .row {
+		flex-direction: column; /* Stack key figures boxes in a column */
+		align-items: center; /* Center the boxes */
+	}
 
-  .key-figures-box {
-    width: 80%; /* Adjust width for mobile */
-    margin-left: 0;
-  }
+	.key-figures-box {
+		width: 80%; /* Adjust width for mobile */
+		margin-left: 0;
+	}
 
-  .subtext-trace {
-    height: fit-content;
-    padding-bottom: 90px;
-    margin-top: 40px; /* Added margin-top for separation */
-  }
+	.subtext-trace {
+		height: fit-content;
+		padding-bottom: 90px;
+		margin-top: 40px; /* Added margin-top for separation */
+	}
 
-  .subtext-p {
-    font-size: 20px;
-  }
+	.subtext-p {
+		font-size: 20px;
+	}
 
-  .subtext-title {
-    font-size: 48px;
-  }
+	.subtext-title {
+		font-size: 48px;
+	}
 
-  .guidebook-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin-top: 20px; /* Added margin-top for separation */
-  }
+	.guidebook-section {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		margin-top: 20px; /* Added margin-top for separation */
+	}
 
-  .subtext-description {
-    font-size: 18px;
-    margin-top: 30px;
-  }
+	.subtext-description {
+		font-size: 18px;
+		margin-top: 30px;
+	}
 
-  .mini-career-fair-banner {
-    display: none; /* Hide the mini career fair banner */
-  }
+	.mini-career-fair-banner {
+		display: none; /* Hide the mini career fair banner */
+	}
 
-  .image-carousel {
-    padding: 40px 20px;
-  }
+	.image-carousel {
+		padding: 40px 20px;
+	}
 
-  /* Carousel wrapper */
-  .carousel {
-    width: 100%;
-    margin: 0 auto;
-  }
+	/* Carousel wrapper */
+	.carousel {
+		width: 100%;
+		margin: 0 auto;
+	}
 
-  /* Image container */
-  .carousel-item {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  }
+	/* Image container */
+	.carousel-item {
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding-bottom: 56.25%; /* 16:9 aspect ratio */
+	}
 
-  /* Responsive images */
-  .carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+	/* Responsive images */
+	.carousel-item img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-  /* Section title styling */
-  .section-title {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 1.75rem;
-  }
+	/* Section title styling */
+	.section-title {
+		text-align: center;
+		margin-bottom: 1.5rem;
+		font-size: 1.75rem;
+	}
 
-  /* Add this to your CSS */
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 20px; /* Make the clickable area more defined */
-    height: 20px; /* Make it a square */
-    background-color: rgba(
-      0,
-      0,
-      0,
-      0.5
-    ); /* Semi-transparent black background */
-    border-radius: 50%; /* Make it circular */
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%); /* Adjust for perfect centering */
-  }
+	/* Add this to your CSS */
+	.carousel-control-prev,
+	.carousel-control-next {
+		width: 20px; /* Make the clickable area more defined */
+		height: 20px; /* Make it a square */
+		background-color: rgba(
+			0,
+			0,
+			0,
+			0.5
+		); /* Semi-transparent black background */
+		border-radius: 50%; /* Make it circular */
+		top: 50%; /* Center vertically */
+		transform: translateY(-50%); /* Adjust for perfect centering */
+	}
 
-  /* Adjust positioning for prev/next buttons */
-  .carousel-control-prev {
-    left: 20px; /* Move slightly away from the edge */
-  }
+	/* Adjust positioning for prev/next buttons */
+	.carousel-control-prev {
+		left: 20px; /* Move slightly away from the edge */
+	}
 
-  .carousel-control-next {
-    right: 20px; /* Move slightly away from the edge */
-  }
+	.carousel-control-next {
+		right: 20px; /* Move slightly away from the edge */
+	}
 
-  /* Optional: Add hover effect */
-  .carousel-control-prev:hover,
-  .carousel-control-next:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
-  }
+	/* Optional: Add hover effect */
+	.carousel-control-prev:hover,
+	.carousel-control-next:hover {
+		background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+	}
 
-  /* Optional: Make the arrows themselves more visible */
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    width: 20px;
-    height: 20px;
-  }
+	/* Optional: Make the arrows themselves more visible */
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		width: 20px;
+		height: 20px;
+	}
 }
 
 .hero-title-container {
-  background: linear-gradient(rgba(4, 10, 60, 0.59), rgba(4, 10, 60, 0.59)),
-    url("../images/trace2024_122.jpg");
+	background: linear-gradient(rgba(4, 10, 60, 0.59), rgba(4, 10, 60, 0.59)),
+		url("../images/trace2024_122.jpg");
 
-  background-size: auto, auto;
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  text-align: center;
-  margin: auto;
-  width: 100%;
+	background-size: auto, auto;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	text-align: center;
+	margin: auto;
+	width: 100%;
 }
 
 .hero-title-text h1 {
-  font-size: 80px;
-  text-align: center; /* Center the text horizontally */
-  font-family: "NEXT ART", sans-serif;
-  font-weight: bold;
+	font-size: 80px;
+	text-align: center; /* Center the text horizontally */
+	font-family: "NEXT ART", sans-serif;
+	font-weight: bold;
 }
 
 .key-figures {
-  background: linear-gradient(rgba(0, 47, 255, 0.2), rgba(7, 34, 126, 0.2)),
-    url("../images/background.png");
-  background-size: cover;
-  background-position: center;
-  padding: 50px 0;
+	background: linear-gradient(rgba(0, 47, 255, 0.2), rgba(7, 34, 126, 0.2)),
+		url("../images/background.png");
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
 }
 
 .key-figures-title {
-  font-size: 54px;
-  font-weight: bold;
-  font-family: "SF Pro Display Medium", sans-serif;
-  color: #fff;
+	font-size: 54px;
+	font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
+	color: #fff;
 }
 
 .line-white {
-  height: 10px; /* Specifies the thickness of the line */
-  width: 91px; /* Adjust the width as necessary */
-  background-color: #fff; /* Change the color to match your site's theme, #0056b3 is a shade of blue */
-  margin-top: 26px;
+	height: 10px; /* Specifies the thickness of the line */
+	width: 91px; /* Adjust the width as necessary */
+	background-color: #fff; /* Change the color to match your site's theme, #0056b3 is a shade of blue */
+	margin-top: 26px;
 }
 
 .key-figures-box {
-  background-color: #0e4e69;
-  padding: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-  height: 210px;
-  width: 236px;
-  color: white;
+	background-color: #0e4e69;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 210px;
+	width: 236px;
+	color: white;
 }
 
 .key-figures-icon {
-  font-size: 50px;
-  color: #ffc107;
-  width: 40px;
-  height: 40px;
-  margin-bottom: 60px;
+	font-size: 50px;
+	color: #ffc107;
+	width: 40px;
+	height: 40px;
+	margin-bottom: 60px;
 }
 
 .key-figures-number {
-  font-family: "SF Pro Display Medium", sans-serif;
-  font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
+	font-weight: bold;
 }
 
 .key-figures-parent {
-  display: flex;
-  justify-content: flex-end; /* Aligns children (the icon) to the right */
-  align-items: center; /* Optional: aligns children vertically in the middle */
+	display: flex;
+	justify-content: flex-end; /* Aligns children (the icon) to the right */
+	align-items: center; /* Optional: aligns children vertically in the middle */
 }
 
 .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto; /* Center the container horizontally */
-  width: 80%; /* Set the width of the container */
-  overflow: hidden;
-  flex-shrink: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto; /* Center the container horizontally */
+	width: 80%; /* Set the width of the container */
+	overflow: hidden;
+	flex-shrink: 0;
 }
 
 .image-container img {
-  height: auto;
-  width: 100%;
-  max-width: 100%;
+	height: auto;
+	width: 100%;
+	max-width: 100%;
 }
 
 .hero-title-text h2 {
-  font-family: "SF Pro Display Bold", sans-serif;
+	font-family: "SF Pro Display Bold", sans-serif;
 }
 
 .guidebook-image-container {
-  width: auto;
-  overflow: hidden;
-  flex-shrink: 0;
+	width: auto;
+	overflow: hidden;
+	flex-shrink: 0;
 }
 
 .guidebook-image-container img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
 }
 
 .guidebook-link {
-  margin-top: 10px;
-  display: block;
-  width: 100%;
-  padding: 0;
+	margin-top: 10px;
+	display: block;
+	width: 100%;
+	padding: 0;
 }
 
 .guidebook-btn {
-  margin-top: 10px;
+	margin-top: 10px;
 
-  font-size: 15px;
-  font-weight: 500;
-  color: #ffffff;
-  width: 100%; /* Make the button take the full width of its parent */
-  background: #040a3c;
-  padding: 20px 10px;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
-  display: block; /* Make the button a block element */
+	font-size: 15px;
+	font-weight: 500;
+	color: #ffffff;
+	width: 100%; /* Make the button take the full width of its parent */
+	background: #040a3c;
+	padding: 20px 10px;
+	border: none;
+	cursor: pointer;
+	transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
+	display: block; /* Make the button a block element */
 }
 
 .event-details-trace2024 {
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  flex-shrink: 0;
-  background: #f2f5f9;
-  padding-top: 90px;
-  padding-bottom: 90px;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	flex-shrink: 0;
+	background: #f2f5f9;
+	padding-top: 90px;
+	padding-bottom: 90px;
 }
 
-
-
 .image-container-booth {
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding-top: 90px;
-  padding-bottom: 90px;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	flex-shrink: 0;
+	padding-top: 90px;
+	padding-bottom: 90px;
 }
 
 .guidebook-section {
-  background: #f2f5f9;
-  padding-top: 60px;
-  padding-bottom: 60px;
+	background: #f2f5f9;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .image-container-booth img {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .booth-info-title {
-  font-size: 50px;
-  font-weight: bold;
-  font-family: "SF Pro Display Medium", sans-serif;
-  text-align: center;
-  color: #040a3c;
-  margin-top: 40px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
+	text-align: center;
+	color: #040a3c;
+	margin-top: 40px;
 }
 
 .booth-section {
-  background: #f2f5f9;
+	background: #f2f5f9;
 }
 
 .line-blue {
-  height: 10px; /* Specifies the thickness of the line */
-  width: 91px; /* Adjust the width as necessary */
-  background-color: #040a3c; /* Change the color to match your site's theme, #0056b3 is a shade of blue */
-  margin-top: 26px;
+	height: 10px; /* Specifies the thickness of the line */
+	width: 91px; /* Adjust the width as necessary */
+	background-color: #040a3c; /* Change the color to match your site's theme, #0056b3 is a shade of blue */
+	margin-top: 26px;
 }
 
 .tentative-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .tentative-schedule-title {
-  font-size: 54px;
-  font-weight: bold;
-  font-family: "SF Pro Display Medium", sans-serif;
+	font-size: 54px;
+	font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
 }
 
 .guidebook-title {
-  font-size: 40px;
-  margin-bottom: 40px;
-  font-weight: bold;
-  font-family: "SF Pro Display Medium", sans-serif;
+	font-size: 40px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
 }
 
 .tentative-schedule-subtitle {
-  font-size: 30px;
-  font-family: "SF Pro Display Medium", sans-serif;
-  margin-top: 20px;
+	font-size: 30px;
+	font-family: "SF Pro Display Medium", sans-serif;
+	margin-top: 20px;
 }
 
 .mini-career-fair-banner {
-  background: url("../images/Banner_mini_career_fair_3.png");
-  background-size: cover;
-  background-position: center;
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  text-align: center;
-  margin: auto;
-  width: 100%; /* Ensures the container takes full width */
+	background: url("../images/Banner_mini_career_fair_3.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	text-align: center;
+	margin: auto;
+	width: 100%; /* Ensures the container takes full width */
 }
 
 .mini-career-fair-image-container {
-  width: auto;
-  overflow: hidden;
-  flex-shrink: 0;
+	width: auto;
+	overflow: hidden;
+	flex-shrink: 0;
 }
 
 .mini-career-fair-image-container img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
 }
 
 .section-title {
-  font-size: 50px;
-  font-weight: bold;
-  font-family: "SF Pro Display Medium", sans-serif;
-  text-align: center;
-  color: #040a3c;
-  margin-top: 40px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
+	text-align: center;
+	color: #040a3c;
+	margin-top: 40px;
 }
 
 .mini-career-fair-link {
-  margin-top: 10px;
-  display: block;
-  width: 100%;
-  padding: 0;
+	margin-top: 10px;
+	display: block;
+	width: 100%;
+	padding: 0;
 }
 
 .mini-career-fair-section {
-  background: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 60px;
+	background: #ffffff;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }

@@ -1,0 +1,143 @@
+<div class="container" data-scroll-section>
+				<div class="row">
+					<h1 class="event-title">Current Events</h1>
+
+					<a
+						href="events-pages/logo-competition.html"
+						data-scroll
+						data-scroll-speed="0.5">
+						<div class="col-md-12 card-pos">
+							<div class="event-card event-card-image-logo-competition">
+								<div class="event-text">
+									TRACE 2025
+									<div class="line-white"></div>
+								</div>
+								<!-- Button Container -->
+								<div class="container-button">
+									<a href="#" class="learn-more-btn">Learn More > </a>
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<h1 class="event-title">Upcoming Events</h1>
+
+					<a
+						href="events-pages/logo-competition.html"
+						data-scroll
+						data-scroll-speed="0.5">
+						<div class="col-md-12 card-pos">
+							<div class="event-card event-card-image-logo-competition">
+								<div class="event-text">
+									TRACE Logo Competition 2025
+									<div class="line-white"></div>
+								</div>
+								<!-- Button Container -->
+								<div class="container-button">
+									<a
+										href="events-pages/logo-competition.html"
+										class="learn-more-btn"
+										>Learn More >
+									</a>
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<h1 class="event-title">Past Events</h1>
+					<a
+						href="events-pages/mini-career-fair-2024.html"
+						data-scroll
+						data-scroll-speed="0.5">
+						<div class="col-md-12 card-pos">
+							<div class="event-card event-card-image-mini-career-fair">
+								<div class="event-text">
+									TRACE Mini Career Fair 2024
+									<div class="line-white"></div>
+								</div>
+								<!-- Button Container -->
+								<div class="container-button">
+									<a
+										href="events-pages/mini-career-fair-2024.html"
+										class="learn-more-btn"
+										>Learn More >
+									</a>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a
+						href="events-pages/trace2024.html"
+						data-scroll
+						data-scroll-speed="1">
+						<div class="col-md-12 card-pos">
+							<div class="event-card event-card-image-trace2024">
+								<div class="event-text">
+									TRACE 2024
+									<div class="line-white"></div>
+								</div>
+								<!-- Button Container -->
+								<div class="container-button">
+									<a href="events-pages/trace2024.html" class="learn-more-btn"
+										>Learn More >
+									</a>
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a href="events-pages/gpp.html" data-scroll data-scroll-speed="1.2">
+						<div class="col-md-12 card-pos">
+							<div class="event-card event-card-image-gpp">
+								<div class="event-text">
+									Graduate Professional Programme
+									<div class="line-white"></div>
+								</div>
+								<!-- Button Container -->
+								<div class="container-button">
+									<a href="events-pages/gpp.html" class="learn-more-btn"
+										>Learn More >
+									</a>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a
+						href="events-pages/tracetour.html"
+						data-scroll
+						data-scroll-speed="1.4">
+						<div class="col-md-12 card-pos">
+							<div class="event-card event-card-image-tracetour">
+								<div class="event-text">
+									TRACE Tour
+									<div class="line-white"></div>
+								</div>
+								<!-- Button Container -->
+								<div class="container-button">
+									<a href="events-pages/tracetour.html" class="learn-more-btn"
+										>Learn More >
+									</a>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a
+						href="events-pages/trace2023.html"
+						data-scroll
+						data-scroll-speed="2">
+						<div class="col-md-12 card-pos">
+							<div class="event-card event-card-image-trace2023">
+								<div class="event-text">
+									TRACE 2023
+									<div class="line-white"></div>
+								</div>
+								<!-- Button Container -->
+								<div class="container-button">
+									<a href="events-pages/trace2023.html" class="learn-more-btn"
+										>Learn More >
+									</a>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>

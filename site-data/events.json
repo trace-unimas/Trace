@@ -1,0 +1,32 @@
+[
+    {
+        "title": "TRACE 2025",
+        "link": "",
+        "image": "Assets/images/poster2025_web.png",
+        "category": "upcoming"
+    },
+    {
+        "title": "TRACE Logo Competition 2025",
+        "link": "events-pages/logo-competition.html",
+        "image": "Assets/images/logo-competition1.png",
+        "category": "current"
+    },
+    {
+        "title": "TRACE Mini Career Fair 2024",
+        "link": "events-pages/mini-career-fair-2024.html",
+        "image": "Assets/images/mini_career_fair.png",
+        "category": "past"
+    },
+    {
+        "title": "TRACE 2024",
+        "link": "events-pages/trace2024.html",
+        "image": "https://storage.googleapis.com/trace-unimas/trace2024_main.JPG",
+        "category": "past"
+    },
+    {
+        "title": "TRACE 2023",
+        "link": "events-pages/trace2023.html",
+        "image": "Assets/images/trace-group-photo.png",
+        "category": "past"
+    }
+]

@@ -1,89 +1,86 @@
 .logo {
-    width: 87px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+	width: 87px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
 }
 
-
-
 .navbar-brand {
-    background: white;
-    padding: 1px 60px;
+	background: white;
+	padding: 1px 60px;
 }
 
 body {
-    font-family: 'SF Pro', sans-serif;
-    margin: 0;
-    padding: 0;
+	font-family: "SF Pro", sans-serif;
+	margin: 0;
+	padding: 0;
 }
-.hero{
-
+.hero {
 }
 .learn-more-btn {
-    background-color: #010953;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 0px;
+	background-color: #010953;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 0px;
 }
 
 .nav-item {
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px 20px;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 10px 20px;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 body {
-    animation-name: fadeIn;
-    animation-duration: 2s; /* Controls the speed of the animation */
-    animation-fill-mode: forwards; /* Ensures the element remains visible after the animation */
+	animation-name: fadeIn;
+	animation-duration: 2s; /* Controls the speed of the animation */
+	animation-fill-mode: forwards; /* Ensures the element remains visible after the animation */
 }
 
 .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .exhibitor-btn {
-    background-color: #010953;
-    color: white;
-    font-weight: bold;
-    padding: 10px 90px;
-    border-radius: 0px;
-    text-decoration: none; /* Remove underline from links */
-    display: inline-block; /* Make it inline-block if necessary */
+	background-color: #010953;
+	color: white;
+	font-weight: bold;
+	padding: 10px 90px;
+	border-radius: 0px;
+	text-decoration: none; /* Remove underline from links */
+	display: inline-block; /* Make it inline-block if necessary */
 }
 
 .exhibitor-btn:hover {
-    background-color: #ffffff;
-    color: #040a3c;
+	background-color: #ffffff;
+	color: #040a3c;
 }
 
 /* General styling for the dropdown */
 .navbar .dropdown-menu {
-    background-color: white;
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    border-radius: 0px; /* Optional: rounded corners for Material look */
-    margin-top: 0; /* Remove default Bootstrap spacing */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for a better feel */
-    display: none;
+	background-color: white;
+	border: none;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+	border-radius: 0px; /* Optional: rounded corners for Material look */
+	margin-top: 0; /* Remove default Bootstrap spacing */
+	transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for a better feel */
+	display: none;
 }
 
 /* Adjust the link appearance */
 .navbar .nav-link {
-    transition: background-color 0.3s;
+	transition: background-color 0.3s;
 }
 
 .navbar .nav-item:hover .nav-link {
@@ -92,438 +89,441 @@ body {
 /* Styling when dropdown is active/hovered */
 .navbar .nav-item.dropdown:hover .dropdown-menu.show,
 .navbar .nav-item.dropdown .dropdown-menu.show {
-    display: block;
-    opacity: 1; /* Make visible */
-    transform: translateY(0); /* Move to natural position */
-    pointer-events: auto; /* Allow interaction */
+	display: block;
+	opacity: 1; /* Make visible */
+	transform: translateY(0); /* Move to natural position */
+	pointer-events: auto; /* Allow interaction */
 }
 
 /* Optional: Add material design ripple effect */
-.dropdown-item:focus, .dropdown-item:hover {
-    background-color: #eeeeee; /* Material ripple effect color */
+.dropdown-item:focus,
+.dropdown-item:hover {
+	background-color: #eeeeee; /* Material ripple effect color */
 }
 
-
 .navbar.scrolled {
-    background-color: #040a3c !important;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+	background-color: #040a3c !important;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Add these to ensure proper z-index stacking */
 [data-scroll-container] {
-    z-index: 1;
+	z-index: 1;
 }
 
 .navbar {
-
 }
 
 /* And potentially the navbar itself */
 .navbar {
-
 }
 
-
-
 .navbar .nav-link {
-    position: relative;
-    overflow: hidden; /* Keeps the line from extending outside */
-    line-height: 60px; /* Aligns text vertically; adjust to navbar's height */
-    height: fit-content; /* Ensures full height alignment */
-    padding: 0 15px; /* Example padding; adjust to your design */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	position: relative;
+	overflow: hidden; /* Keeps the line from extending outside */
+	line-height: 60px; /* Aligns text vertically; adjust to navbar's height */
+	height: fit-content; /* Ensures full height alignment */
+	padding: 0 15px; /* Example padding; adjust to your design */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .navbar .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0; /* Adjust if your nav items or navbar has specific padding */
-    left: 0;
-    width: 0; /* Initially hidden */
-    height: 4px; /* Thickness of the line */
-    background-color: #ffffff; /* Color of the line, adjust as necessary */
-    transition: width 0.3s ease; /* Smooth transition for the animation */
+	content: "";
+	position: absolute;
+	bottom: 0; /* Adjust if your nav items or navbar has specific padding */
+	left: 0;
+	width: 0; /* Initially hidden */
+	height: 4px; /* Thickness of the line */
+	background-color: #ffffff; /* Color of the line, adjust as necessary */
+	transition: width 0.3s ease; /* Smooth transition for the animation */
 }
 
 .navbar .nav-link:hover::after {
-    width: 100%; /* Full width on hover */
+	width: 100%; /* Full width on hover */
 }
 
 .active .nav-link::after {
-    width: 100%; /* Full width when active */
+	width: 100%; /* Full width when active */
 }
 
 .navbar .nav-link::after {
-    width: 0; /* Ensures the line is hidden initially */
+	width: 0; /* Ensures the line is hidden initially */
 }
 
 .navbar .nav-link {
-    position: relative;
-    overflow: hidden; /* Ensures the pseudo-element doesn't extend outside the link area */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 15px; /* Adjust padding as needed */
+	position: relative;
+	overflow: hidden; /* Ensures the pseudo-element doesn't extend outside the link area */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 15px; /* Adjust padding as needed */
 }
 
 .navbar .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0; /* Aligns at the bottom of the link */
-    left: 0;
-    width: 0; /* Starts hidden */
-    height: 4px; /* Thickness of the underline */
-    background-color: #ffffff; /* Color of the underline */
-    transition: width 0.3s ease; /* Smooth transition for showing the line */
+	content: "";
+	position: absolute;
+	bottom: 0; /* Aligns at the bottom of the link */
+	left: 0;
+	width: 0; /* Starts hidden */
+	height: 4px; /* Thickness of the underline */
+	background-color: #ffffff; /* Color of the underline */
+	transition: width 0.3s ease; /* Smooth transition for showing the line */
 }
 
 /* Styling for hover - optional if you only want it on active */
 .navbar .nav-link:hover::after {
-    width: 100%; /* Full width on hover */
+	width: 100%; /* Full width on hover */
 }
 
 /* Styling for active state */
 .navbar .nav-link.active::after,
-.navbar .nav-link.active:hover::after { /* Ensures the line is also full width on hover when active */
-    width: 100%; /* Full width to show it's active */
+.navbar .nav-link.active:hover::after {
+	/* Ensures the line is also full width on hover when active */
+	width: 100%; /* Full width to show it's active */
 }
 
 footer {
-    background: linear-gradient(rgba(0, 47, 255, 0.2), rgba(7, 34, 126, 0.2)), url("../images/background.png");
-    background-size: cover;
-    padding: 30px;
-    margin-top: 90px;
+	background: linear-gradient(rgba(0, 47, 255, 0.2), rgba(7, 34, 126, 0.2)),
+		url("../images/background.png");
+	background-size: cover;
+	padding: 30px;
+	margin-top: 90px;
 }
 
 .footer-title {
-    margin-top: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "SF Pro Display Medium", sans-serif;
-    color: #fff;
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "SF Pro Display Medium", sans-serif;
+	color: #fff;
 }
 
 .socials-icon {
-    margin-top: 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 35px; /* Consistent with SVG size */
-    height: 35px; /* Consistent with SVG size */
-    border-radius: 50%;
-    margin: 20px 5px; /* Spacing between icons */
-    overflow: hidden; /* Ensures nothing spills outside the circle */
-    border: 1px solid white; /* Optional border for aesthetics */
-    background-color: transparent; /* Default background */
-    color: white; /* Default icon color */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and color */
+	margin-top: 20px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 35px; /* Consistent with SVG size */
+	height: 35px; /* Consistent with SVG size */
+	border-radius: 50%;
+	margin: 20px 5px; /* Spacing between icons */
+	overflow: hidden; /* Ensures nothing spills outside the circle */
+	border: 1px solid white; /* Optional border for aesthetics */
+	background-color: transparent; /* Default background */
+	color: white; /* Default icon color */
+	transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and color */
 }
 
 /* Apply the hover color to SVG using currentColor */
 .socials-icon:hover {
-    background-color: white; /* White background on hover */
-    color: #040a3c /* Change icon color on hover */
+	background-color: white; /* White background on hover */
+	color: #040a3c; /* Change icon color on hover */
 }
 
 .socials-icon svg {
-    width: 50%; /* Fill the container */
-    height: auto; /* Maintain aspect ratio */
-    fill: currentColor; /* Inherit color from parent */
-    transition: fill 0.3s ease; /* Smooth transition for the fill color */
+	width: 50%; /* Fill the container */
+	height: auto; /* Maintain aspect ratio */
+	fill: currentColor; /* Inherit color from parent */
+	transition: fill 0.3s ease; /* Smooth transition for the fill color */
 }
 
 li {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 ul {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .footer-list {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .learn-more-btn:hover {
-    background-color: #063880;
-    color: #f2f5f9;
+	background-color: #063880;
+	color: #f2f5f9;
 }
 
 .title-header {
-    background-color: #040a3c;
-    color: white;
-    padding-top: 200px;
-    padding-bottom: 40px;
-    font-family: "SF Pro Display Medium", sans-serif;
+	background-color: #040a3c;
+	color: white;
+	padding-top: 200px;
+	padding-bottom: 40px;
+	font-family: "SF Pro Display Medium", sans-serif;
 }
 
-
-
 .title-text {
-    margin-left: 30px;
+	margin-left: 30px;
 }
 
 .navbar {
 }
 
 .footer-logo img {
-    width: 285px;
-    height: auto;
-    display: block;
+	width: 285px;
+	height: auto;
+	display: block;
 }
 
-.navdate-navplace{
-    color: #040a3c;
-    font-family: "SF Pro Display Medium", sans-serif;
-    text-transform: Uppercase;
+.navdate-navplace {
+	color: #040a3c;
+	font-family: "SF Pro Display Medium", sans-serif;
+	text-transform: Uppercase;
 }
 
 /* Base Locomotive Scroll styles */
 html.has-scroll-smooth {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 body {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 [data-scroll-container] {
-    min-height: 100vh;
+	min-height: 100vh;
 }
 
 /* Important: Set initial state for scroll elements */
 [data-scroll] {
-    opacity: 1; /* Changed from 0 to 1 to make elements visible by default */
-    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+	opacity: 1; /* Changed from 0 to 1 to make elements visible by default */
+	transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 /* Apply animations when elements are revealed */
 [data-scroll].is-revealed {
-    opacity: 1;
-    transform: translateY(0) scale(1);
+	opacity: 1;
+	transform: translateY(0) scale(1);
 }
 
 /* Speed variations */
 [data-scroll-speed="1"] {
-    transition-delay: 0.1s;
+	transition-delay: 0.1s;
 }
 
 [data-scroll-speed="1.2"] {
-    transition-delay: 0.15s;
+	transition-delay: 0.15s;
 }
 
 [data-scroll-speed="1.3"] {
-    transition-delay: 0.2s;
+	transition-delay: 0.2s;
 }
 
 [data-scroll-speed="1.4"] {
-    transition-delay: 0.25s;
+	transition-delay: 0.25s;
 }
 
 [data-scroll-speed="1.5"] {
-    transition-delay: 0.3s;
+	transition-delay: 0.3s;
 }
 
 [data-scroll-speed="2"] {
-    transition-delay: 0.4s;
+	transition-delay: 0.4s;
 }
 
 /* Ensure sections are visible */
 [data-scroll-section] {
-    opacity: 1;
-    visibility: visible;
+	opacity: 1;
+	visibility: visible;
 }
 
 /* Fade up animation */
 .fade-up {
-    transform: translateY(50px);
-    opacity: 0;
-    transition: all 1s;
+	transform: translateY(50px);
+	opacity: 0;
+	transition: all 1s;
 }
 
 .fade-up.is-revealed {
-    transform: translateY(0);
-    opacity: 1;
+	transform: translateY(0);
+	opacity: 1;
 }
 
 .navbar {
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    transition: all 0.3s ease;
-    background-color: transparent;
-    padding-top: 0;    /* Add this */
-    padding-bottom: 0; /* Add this */
-    border-bottom: 1px solid #ffffff;
-
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	transition: all 0.3s ease;
+	background-color: transparent;
+	padding-top: 0; /* Add this */
+	padding-bottom: 0; /* Add this */
+	border-bottom: 1px solid #ffffff;
 }
 
 .navbar.scrolled {
-    background-color: #040a3c !important;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+	background-color: #040a3c !important;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Ensure proper z-index stacking */
 [data-scroll-container] {
-    z-index: 1;
+	z-index: 1;
 }
 
 .background-nav-hero {
-    position: relative;
-    z-index: 1;
+	position: relative;
+	z-index: 1;
 }
 
 @media (max-width: 991px) {
-    .navbar-toggler {
-        border-color: rgba(0, 0, 0, .1); /* Optional: if you want to change the toggler icon color */
-    }
+	.navbar-toggler {
+		border-color: rgba(
+			0,
+			0,
+			0,
+			0.1
+		); /* Optional: if you want to change the toggler icon color */
+	}
 
-    /* This ensures the background of the collapsed menu is white */
-    .navbar-collapse.collapsing {
-        background-color: rgba(4, 10, 60, 0.87); /* Intermediate state during transition */
-    }
+	/* This ensures the background of the collapsed menu is white */
+	.navbar-collapse.collapsing {
+		background-color: rgba(
+			4,
+			10,
+			60,
+			0.87
+		); /* Intermediate state during transition */
+	}
 
-    .navbar-collapse.collapse.show {
-        background-color: rgba(4, 10, 60, 0.87); /* When fully shown */
-    }
+	.navbar-collapse.collapse.show {
+		background-color: rgba(4, 10, 60, 0.87); /* When fully shown */
+	}
 
-    /* This ensures the links inside the collapsed navbar are visible against the white background */
-    .navbar-dark .navbar-nav .nav-link {
-        padding: 0;
-        color: #ffffff; /* Ensures visibility on white background */
-    }
+	/* This ensures the links inside the collapsed navbar are visible against the white background */
+	.navbar-dark .navbar-nav .nav-link {
+		padding: 0;
+		color: #ffffff; /* Ensures visibility on white background */
+	}
 
-    /* Optional: Adjustments for hover effects to enhance visibility */
-    .navbar-dark .navbar-nav .nav-link:hover,
-    .navbar-dark .navbar-nav .nav-link:focus {
-        color: #ffffff; /* Darker color for better contrast */
-    }
+	/* Optional: Adjustments for hover effects to enhance visibility */
+	.navbar-dark .navbar-nav .nav-link:hover,
+	.navbar-dark .navbar-nav .nav-link:focus {
+		color: #ffffff; /* Darker color for better contrast */
+	}
 
-    /* Make sure the navbar brand has a transparent background by default */
-    .navbar-brand {
-        background-color: white;
-        transition: background-color 0.3s ease; /* Smooth transition for the background color */
-        margin:0;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+	/* Make sure the navbar brand has a transparent background by default */
+	.navbar-brand {
+		background-color: white;
+		transition: background-color 0.3s ease; /* Smooth transition for the background color */
+		margin: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 
-    .exhibitor-btn:hover {
-        background-color: #010953;
-        color: white;
-    }
+	.exhibitor-btn:hover {
+		background-color: #010953;
+		color: white;
+	}
 
-    /* Change the background color when navbar is collapsed and toggled */
-    .navbar-toggler.collapsed + .navbar-collapse {
-        .navbar-brand {
-            background-color: white; /* Only apply white background in toggled state */
-        }
-    }
+	/* Change the background color when navbar is collapsed and toggled */
+	.navbar-toggler.collapsed + .navbar-collapse {
+		.navbar-brand {
+			background-color: white; /* Only apply white background in toggled state */
+		}
+	}
 
-    .nav-item {
-        margin-right: 10px; /* Reduce margin between items */
-    }
+	.nav-item {
+		margin-right: 10px; /* Reduce margin between items */
+	}
 
-    .nav-link {
-        padding: 0 10px; /* Reduce padding on each side */
-    }
-    .footer-logo img {
-        width: 100px; /* Adjust for mobile */
-    }
-    .footer {
-        padding: 20px;
-        margin-top: 30px;
-        background-size: auto;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh !important;
-        margin-bottom: -1px;  /* or whatever gap size you're seeing */
-    }
+	.nav-link {
+		padding: 0 10px; /* Reduce padding on each side */
+	}
+	.footer-logo img {
+		width: 100px; /* Adjust for mobile */
+	}
+	.footer {
+		padding: 20px;
+		margin-top: 30px;
+		background-size: auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 100vh !important;
+		margin-bottom: -1px; /* or whatever gap size you're seeing */
+	}
 
-    .logo {
-        width: 79px;
-    }
+	.logo {
+		width: 79px;
+	}
 
-    .footer-logo img {
-        width: 300px; /* Adjust for mobile */
-    }
+	.footer-logo img {
+		width: 300px; /* Adjust for mobile */
+	}
 
-    .navbar-toggler {
-        margin-right: 8px;
-    }
+	.navbar-toggler {
+		margin-right: 8px;
+	}
 
-    .title-header{
-        padding-top: 150px;
-        padding-bottom: 10px;
-    }
+	.title-header {
+		padding-top: 200px;
+		padding-bottom: 40px;
+	}
 
+	/* Base Locomotive Scroll styles */
+	html.has-scroll-smooth {
+		overflow: initial;
+	}
 
-    /* Base Locomotive Scroll styles */
-    html.has-scroll-smooth {
-        overflow: initial;
-    }
+	body {
+		overflow: initial;
+	}
 
-    body {
-        overflow: initial;
-    }
+	[data-scroll-container] {
+		min-height: 100vh;
+	}
 
-    [data-scroll-container] {
-        min-height: 100vh;
-    }
+	/* Important: Set initial state for scroll elements */
+	[data-scroll] {
+		opacity: 1; /* Changed from 0 to 1 to make elements visible by default */
+		transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+	}
 
-    /* Important: Set initial state for scroll elements */
-    [data-scroll] {
-        opacity: 1; /* Changed from 0 to 1 to make elements visible by default */
-        transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-    }
+	/* Apply animations when elements are revealed */
+	[data-scroll].is-revealed {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
 
-    /* Apply animations when elements are revealed */
-    [data-scroll].is-revealed {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
+	/* Speed variations */
+	[data-scroll-speed="1"] {
+		transition-delay: 0.1s;
+	}
 
-    /* Speed variations */
-    [data-scroll-speed="1"] {
-        transition-delay: 0.1s;
-    }
+	[data-scroll-speed="1.2"] {
+		transition-delay: 0.15s;
+	}
 
-    [data-scroll-speed="1.2"] {
-        transition-delay: 0.15s;
-    }
+	[data-scroll-speed="1.3"] {
+		transition-delay: 0.2s;
+	}
 
-    [data-scroll-speed="1.3"] {
-        transition-delay: 0.2s;
-    }
+	[data-scroll-speed="1.4"] {
+		transition-delay: 0.25s;
+	}
 
-    [data-scroll-speed="1.4"] {
-        transition-delay: 0.25s;
-    }
+	[data-scroll-speed="1.5"] {
+		transition-delay: 0.3s;
+	}
 
-    [data-scroll-speed="1.5"] {
-        transition-delay: 0.3s;
-    }
+	[data-scroll-speed="2"] {
+		transition-delay: 0.4s;
+	}
 
-    [data-scroll-speed="2"] {
-        transition-delay: 0.4s;
-    }
-
-    /* Ensure sections are visible */
-    [data-scroll-section] {
-        opacity: 1;
-        visibility: visible;
-    }
-
+	/* Ensure sections are visible */
+	[data-scroll-section] {
+		opacity: 1;
+		visibility: visible;
+	}
 }
