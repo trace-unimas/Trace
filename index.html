@@ -132,10 +132,21 @@
 			</div>
 		</div>
 
-		<div class="poster-banner px-100" data-scroll-section>
+		<div class="poster-banner" data-scroll-section>
 			<div class="row">
 				<div class="image-full-size">
-					<img src="Assets/images/poster2025_web.png" alt="exhibitor" />
+					<picture>
+						<source
+							media="(min-width: 1400px)"
+							srcset="Assets/images/poster2025_web.png" />
+						<source
+							media="(max-width: 1399px)"
+							srcset="Assets/images/Main_Poster_2025.png" />
+						<img
+							src="Assets/images/Main_Poster_2025.png"
+							alt="Main Poster"
+							class="img-fluid" />
+					</picture>
 				</div>
 			</div>
 		</div>
