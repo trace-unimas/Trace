@@ -12,7 +12,7 @@
 			rgba(1, 9, 83, 0.87) 0%,
 			rgba(69, 68, 129, 0.39) 100%
 		),
-		url("https://storage.googleapis.com/trace-unimas/trace2024_main.JPG");
+		url("https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/MainImages%2Ftrace2024_main.JPG?alt=media");
 	background-size: cover;
 	background-position: center;
 }

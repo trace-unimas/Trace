@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Sponsor Registration | UNIMAS TRACE</title>
+		<title>Opportunities | UNIMAS TRACE</title>
 		<meta
 			name="description"
 			content="Register as a sponsor for TRACE, the talent recruitment and career exhibition." />
 		<meta name="robots" content="index, follow" />
+
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
 			rel="stylesheet" />
@@ -17,7 +18,11 @@
 		<link rel="stylesheet" href="Assets/css/style.css" />
 		<link rel="stylesheet" href="Assets/css/fonts.css" />
 		<link rel="stylesheet" href="Assets/css/opportunities.css" />
+		<link href="your-project-dir/icon-font/lineicons.css" rel="stylesheet" />
+		<link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
 		<link rel="icon" type="image/x-icon" href="/Assets/images/TRACE_Logo.ico" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+
 		<script
 			src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
 			type="module"></script>
@@ -81,18 +86,47 @@
 				</div>
 			</div>
 
+			<div class="container text-center pt-5" data-scroll-section>
+				<div class="row pt-4" id="company-grid"></div>
+			</div>
 			<div
-				class="container text-center d-flex justify-content-center align-items-center"
-				data-scroll-section>
-				<div class="row">
-					<div class="coming-soon">
-						<dotlottie-player
-							src="https://lottie.host/9837b0ac-f2d8-4dbc-ac73-ba6b87250069/TQyZXeUEDe.lottie"
-							background="transparent"
-							speed="1"
-							style="width: 600px; height: 600px"
-							loop
-							autoplay></dotlottie-player>
+				class="modal fade"
+				id="lightboxModal"
+				tabindex="-1"
+				aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl">
+					<div class="modal-content text-white border-0">
+						<div class="modal-body p-0">
+							<button
+								type="button"
+								class="btn-icon-reset position-absolute top-0 end-0 m-3"
+								data-bs-dismiss="modal"
+								aria-label="Close">
+								<i class="lni lni-xmark"></i>
+							</button>
+							<div
+								id="lightboxCarousel"
+								class="carousel slide w-100"
+								data-bs-ride="false">
+								<div class="carousel-inner" id="lightboxCarouselInner"></div>
+								<button
+									class="carousel-control-prev"
+									type="button"
+									id="lightboxCarouselPrev"
+									data-bs-target="#lightboxCarousel"
+									data-bs-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									id="lightboxCarouselNext"
+									data-bs-target="#lightboxCarousel"
+									data-bs-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -256,5 +290,6 @@
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"></script>
 		<script src="script.js"></script>
+		<script src="vacancy.js"></script>
 	</body>
 </html>

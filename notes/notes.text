@@ -86,7 +86,7 @@
 						</div>
 					</a>
 
-					<a href="events-pages/gpp.html" data-scroll data-scroll-speed="1.2">
+					<a href="events-pages/gpp2024.html" data-scroll data-scroll-speed="1.2">
 						<div class="col-md-12 card-pos">
 							<div class="event-card event-card-image-gpp">
 								<div class="event-text">
@@ -95,7 +95,7 @@
 								</div>
 								<!-- Button Container -->
 								<div class="container-button">
-									<a href="events-pages/gpp.html" class="learn-more-btn"
+									<a href="events-pages/gpp2024.html" class="learn-more-btn"
 										>Learn More >
 									</a>
 								</div>
