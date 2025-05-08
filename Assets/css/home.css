@@ -104,6 +104,35 @@
 	height: 70vh;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+	width: auto; /* No full height */
+	height: 40px; /* Auto height to fit the button */
+	background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+	border-radius: 50%; /* Make it circular */
+	padding: 8px; /* Adjust size */
+	top: 50%; /* Center vertically */
+	transform: translateY(-50%); /* Fix vertical alignment */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-size: 20px 20px; /* Smaller arrow size */
+}
+
+.carousel-control-prev {
+	left: 10px; /* Adjust distance from left */
+}
+
+.carousel-control-next {
+	right: 10px; /* Adjust distance from right */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+	background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
 .key-figures-title {
 	font-size: 54px;
 	font-weight: bold;
