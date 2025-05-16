@@ -56,8 +56,8 @@ function createImageWithLightbox(src, alt, entries = null) {
 }
 
 Promise.all([
-	fetch("vacancy.json").then((res) => res.json()),
-	fetch("companies.json").then((res) => res.json()),
+	fetch("../site-data/vacancy.json").then((res) => res.json()),
+	fetch("../site-data/companieswebsite.json").then((res) => res.json()),
 ]).then(([jobs, companyLinks]) => {
 	const grouped = jobs.reduce((acc, job) => {
 		acc[job.company] = acc[job.company] || [];

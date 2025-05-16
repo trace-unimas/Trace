@@ -1,0 +1,484 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "Affin Group",
+            "logo": "../Assets/company-logo/AFFIN_LOGO_for_digital.png",
+            "exhibitorLevel": "Platinum",
+            "location": "P1/8",
+            "bookmarked": false
+        },
+        {
+            "id": 2,
+            "name": "PETROS",
+            "logo": "../Assets/company-logo/MasterLogotransparentNEW_2.png",
+            "exhibitorLevel": "Platinum",
+            "location": "P2",
+            "bookmarked": false
+        },
+        {
+            "id": 3,
+            "name": "Schlumberger NV SLB",
+            "logo": "../Assets/company-logo/SLB_Logo_Positive_RGB.png",
+            "exhibitorLevel": "Platinum",
+            "location": "P3",
+            "bookmarked": false
+        },
+        {
+            "id": 4,
+            "name": "Press Metal Bintulu Sdn Bhd & Press Metal Sarawak Sdn Bhd",
+            "logo": "../Assets/company-logo/Press_Metal_Logo.jpeg",
+            "exhibitorLevel": "Platinum",
+            "location": "P4",
+            "bookmarked": false
+        },
+        {
+            "id": 5,
+            "name": "Maltimur Aktif Unggul JV Sdn Bhd",
+            "logo": "../Assets/company-logo/Maltimur_New_Logo-01-01.png",
+            "exhibitorLevel": "Platinum",
+            "location": "P5",
+            "bookmarked": false
+        },
+        {
+            "id": 6,
+            "name": "OCIM",
+            "logo": "../Assets/company-logo/2_OCIM_Logo.png",
+            "exhibitorLevel": "Platinum",
+            "location": "P6",
+            "bookmarked": false
+        },
+        {
+            "id": 7,
+            "name": "FWD Insurance Berhad",
+            "logo": "../Assets/company-logo/FWD_Startup_Prog_Logo_FA-01.png",
+            "exhibitorLevel": "Platinum",
+            "location": "P7",
+            "bookmarked": false
+        },
+        {
+            "id": 8,
+            "name": "PETRONAS Malaysia LNG Sdn Bhd",
+            "logo": "../Assets/company-logo/PETRONAS_and_P50_Logo_Lock-Up-1_RGB.jpg",
+            "exhibitorLevel": "Gold",
+            "location": "G21/22",
+            "bookmarked": false
+        },
+        {
+            "id": 9,
+            "name": "Sarawak Metro Sdn Bhd",
+            "logo": "../Assets/company-logo/Sarawak_Metro_2024_logo.jpg",
+            "exhibitorLevel": "Gold",
+            "location": "G6/7",
+            "bookmarked": false
+        },
+        {
+            "id": 10,
+            "name": "Wehaya Sdn Bhd",
+            "logo": "../Assets/company-logo/Wehaya_Logo_T.png",
+            "exhibitorLevel": "Gold",
+            "location": "G8",
+            "bookmarked": false
+        },
+        {
+            "id": 11,
+            "name": "Regional Corridor Development Authority (RECODA)",
+            "logo": "../Assets/company-logo/IMG_5622.PNG",
+            "exhibitorLevel": "Gold",
+            "location": "G9",
+            "bookmarked": false
+        },
+        {
+            "id": 12,
+            "name": "Malaysia Digital Economy Corporation (MDEC)",
+            "logo": "../Assets/company-logo/Logo_Compilation_KPT,MD,MDEC,KPTCAP,UKM_mdec.png",
+            "exhibitorLevel": "Gold",
+            "location": "G11",
+            "bookmarked": false
+        },
+        {
+            "id": 13,
+            "name": "SCORE EPCC Sdn Bhd",
+            "logo": "../Assets/company-logo/NEW_COMPANY_LOGO_11_1.jpg",
+            "exhibitorLevel": "Gold",
+            "location": "G12",
+            "bookmarked": false
+        },
+        {
+            "id": 14,
+            "name": "Huawei Malaysia",
+            "logo": "../Assets/company-logo/Vertical_Huawei_logo竖版华为公司标志_2018.png",
+            "exhibitorLevel": "Gold",
+            "location": "G13",
+            "bookmarked": false
+        },
+        {
+            "id": 15,
+            "name": "Business Events Sarawak",
+            "logo": "../Assets/company-logo/BESwk_Logo_Full_No_Tag.png",
+            "exhibitorLevel": "Gold",
+            "location": "G14",
+            "bookmarked": false
+        },
+        {
+            "id": 16,
+            "name": "SMD Semiconductor Sdn Bhd",
+            "logo": "../Assets/company-logo/SMD_LOGO_TM.png",
+            "exhibitorLevel": "Gold",
+            "location": "G15",
+            "bookmarked": false
+        },
+        {
+            "id": 17,
+            "name": "PMB Silicon Sdn Bhd",
+            "logo": "../Assets/company-logo/silicon_new_logo-01.png",
+            "exhibitorLevel": "Gold",
+            "location": "G16",
+            "bookmarked": false
+        },
+        {
+            "id": 18,
+            "name": "Sarawak Land Consolidation and Rehabilitation Authority (SALCRA)",
+            "logo": "../Assets/company-logo/HIGH_RESO_salcra_logo_9922_x_7016.jpg",
+            "exhibitorLevel": "Gold",
+            "location": "G17",
+            "bookmarked": false
+        },
+        {
+            "id": 19,
+            "name": "PTT Exploration and Production Public Company Limited",
+            "logo": "../Assets/company-logo/PTTEP_LOGO.jpg",
+            "exhibitorLevel": "Gold",
+            "location": "G18/G19",
+            "bookmarked": false
+        },
+        {
+            "id": 20,
+            "name": "Haliburton Energy Services (M) Sdn Bhd",
+            "logo": "../Assets/company-logo/HAL_RGB.jpg",
+            "exhibitorLevel": "Gold",
+            "location": "G20",
+            "bookmarked": false
+        },
+        {
+            "id": 21,
+            "name": "Meo Design Studio",
+            "logo": "../Assets/company-logo/a1.png",
+            "exhibitorLevel": "Silver",
+            "location": "S12",
+            "bookmarked": false
+        },
+        {
+            "id": 22,
+            "name": "Kuala Lumpur Kepong Berhad",
+            "logo": "../Assets/company-logo/KLK-2019_KLK_Green.png",
+            "exhibitorLevel": "Silver",
+            "location": "S13",
+            "bookmarked": false
+        },
+        {
+            "id": 23,
+            "name": "Centre for Technology Excellence Sarawak (CENTEXS)",
+            "logo": "../Assets/company-logo/CENTEXS_Logo_Technology-1.png",
+            "exhibitorLevel": "Silver",
+            "location": "S14",
+            "bookmarked": false
+        },
+        {
+            "id": 24,
+            "name": "YSL Group",
+            "logo": "../Assets/company-logo/YSL_LOGO_GOLD.jpg",
+            "exhibitorLevel": "Silver",
+            "location": "S15",
+            "bookmarked": false
+        },
+        {
+            "id": 25,
+            "name": "Merdeka Strategic Development Centre Sdn Bhd (Merdeka Centre)",
+            "logo": "../Assets/company-logo/merdeka_logo_color_6_1.jpg",
+            "exhibitorLevel": "Silver",
+            "location": "S16",
+            "bookmarked": false
+        },
+        {
+            "id": 26,
+            "name": "REGAL GROUP",
+            "logo": "../Assets/company-logo/f2e3cb1d-0af3-4123-9fcb-16029149593d.jpg",
+            "exhibitorLevel": "Silver",
+            "location": "S19",
+            "bookmarked": false
+        },
+        {
+            "id": 27,
+            "name": "AIA Berhad",
+            "logo": "../Assets/company-logo/AIA_round_logo_2.png",
+            "exhibitorLevel": "Silver",
+            "location": "S21",
+            "bookmarked": false
+        },
+        {
+            "id": 28,
+            "name": "CROWE",
+            "logo": "../Assets/company-logo/Crowe_Logo_PMS130+282_for_Microsoft_Office_-_LG.png",
+            "exhibitorLevel": "Silver",
+            "location": "S22",
+            "bookmarked": false
+        },
+        {
+            "id": 29,
+            "name": "General Life Insurance Malaysia BHD",
+            "logo": "../Assets/company-logo/01_G_PANTOC_POS.PNG",
+            "exhibitorLevel": "Bronze",
+            "location": "A1",
+            "bookmarked": false
+        },
+        {
+            "id": 30,
+            "name": "Public Bank Berhad",
+            "logo": "../Assets/company-logo/PBB_Logo_Hi-Resolution.jpg",
+            "exhibitorLevel": "Bronze",
+            "location": "A2",
+            "bookmarked": false
+        },
+        {
+            "id": 31,
+            "name": "UTAR Hospital",
+            "logo": "../Assets/company-logo/25.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A3",
+            "bookmarked": false
+        },
+        {
+            "id": 32,
+            "name": "TALENTCORP",
+            "logo": "../Assets/company-logo/MyNext-logo-24-color.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A4",
+            "bookmarked": false
+        },
+        {
+            "id": 33,
+            "name": "WeMal Technology",
+            "logo": "../Assets/company-logo/WEMAL_LOGO.jpg",
+            "exhibitorLevel": "Bronze",
+            "location": "A5",
+            "bookmarked": false
+        },
+        {
+            "id": 34,
+            "name": "Solarvest",
+            "logo": "../Assets/company-logo/Solarvest_Logo_With_Tagline.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A6",
+            "bookmarked": false
+        },
+        {
+            "id": 35,
+            "name": "Sarawak Dayak Graduates Association",
+            "logo": "../Assets/company-logo/a1.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A7",
+            "bookmarked": false
+        },
+        {
+            "id": 36,
+            "name": "KPJ Kuching Specialist Hospital",
+            "logo": "../Assets/company-logo/KPJ_Kuching_Specialist_Hospital.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A8",
+            "bookmarked": false
+        },
+        {
+            "id": 37,
+            "name": "One Medicare Sdn Bhd",
+            "logo": "../Assets/company-logo/OMSB_LOGO.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A9",
+            "bookmarked": false
+        },
+        {
+            "id": 38,
+            "name": "PMG Healthcare Sdn Bhd",
+            "logo": "../../Assets/company-logo/PMG_LOGO.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A10",
+            "bookmarked": false
+        },
+        {
+            "id": 39,
+            "name": "Borneo Demand Productions Sdn Bhd",
+            "logo": "../Assets/company-logo/BDP_logo.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A11",
+            "bookmarked": false
+        },
+        {
+            "id": 40,
+            "name": "Blankskript Consultants SDN BHD",
+            "logo": "../Assets/company-logo/blsk_logo.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A12",
+            "bookmarked": false
+        },
+        {
+            "id": 41,
+            "name": "ReGen Rehab Hospital",
+            "logo": "../Assets/company-logo/ReGen_Rehab_Logo_PNG_002.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A13",
+            "bookmarked": false
+        },
+        {
+            "id": 42,
+            "name": "Teach For Malaysia",
+            "logo": "../Assets/company-logo/TFM-logo-red_1.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A14",
+            "bookmarked": false
+        },
+        {
+            "id": 43,
+            "name": "Perfec Vision",
+            "logo": "../Assets/company-logo/PERFECT_VISION_LOGO.jpeg",
+            "exhibitorLevel": "Bronze",
+            "location": "A15",
+            "bookmarked": false
+        },
+        {
+            "id": 44,
+            "name": "Ernst & Young",
+            "logo": "../Assets/company-logo/EY_Logo_Beam_Tag_Horizontal_RGB_OffBlack_Yellow.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A16",
+            "bookmarked": false
+        },
+        {
+            "id": 45,
+            "name": "Perbena Emas",
+            "logo": "../Assets/company-logo/PE_Official_Logo.jpeg",
+            "exhibitorLevel": "Bronze",
+            "location": "A17",
+            "bookmarked": false
+        },
+        {
+            "id": 46,
+            "name": "TRIFOLD X",
+            "logo": "../Assets/company-logo/trifoldx_logo.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A18",
+            "bookmarked": false
+        },
+        {
+            "id": 47,
+            "name": "CIMB",
+            "logo": "../Assets/company-logo/CIMB_-_Red_Logo.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A19",
+            "bookmarked": false
+        },
+        {
+            "id": 48,
+            "name": "PlusVibes",
+            "logo": "../Assets/company-logo/PlusVibes_Logo.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A20",
+            "bookmarked": false
+        },
+        {
+            "id": 49,
+            "name": "PwC",
+            "logo": "../Assets/company-logo/PwC_black_outline.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A21",
+            "bookmarked": false
+        },
+        {
+            "id": 50,
+            "name": "Karuna Sarawak Enterprise Sdn Bhd",
+            "logo": "../Assets/company-logo/Karuna_Logo.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A22",
+            "bookmarked": false
+        },
+        {
+            "id": 51,
+            "name": "Jubilant Wealth Management",
+            "logo": "../Assets/company-logo/Logo_gold.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A23",
+            "bookmarked": false
+        },
+        {
+            "id": 52,
+            "name": "Samling",
+            "logo": "../Assets/company-logo/Samling.jpg",
+            "exhibitorLevel": "Bronze",
+            "location": "A24",
+            "bookmarked": false
+        },
+        {
+            "id": 53,
+            "name": "Association Of Professional Technicians & Technologies",
+            "logo": "../Assets/company-logo/APTT_Logo_with_out_registration_no_july_2022_2.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A25",
+            "bookmarked": false
+        },
+        {
+            "id": 54,
+            "name": "Sarawak Forestry Corporation",
+            "logo": "../../Assets/company-logo/SFC-Logo-Colour-.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A27",
+            "bookmarked": false
+        },
+        {
+            "id": 55,
+            "name": "PERSOLKELLY",
+            "logo": "../Assets/company-logo/PersolKelly_horizontal.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A28",
+            "bookmarked": false
+        },
+        {
+            "id": 56,
+            "name": "IQI Dreammakerz",
+            "logo": "../Assets/company-logo/IQI_logo_2.jpg",
+            "exhibitorLevel": "Bronze",
+            "location": "A29/A30",
+            "bookmarked": false
+        },
+        {
+            "id": 57,
+            "name": "Perkeso",
+            "logo": "../../Assets/company-logo/PERKESO_LOGO.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A31",
+            "bookmarked": false
+        },
+        {
+            "id": 58,
+            "name": "Victorious Realty Sdn Bhd",
+            "logo": "../../Assets/company-logo/VICTORIOUS_LOGO_01_-_png.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A32",
+            "bookmarked": false
+        },
+        {
+            "id": 59,
+            "name": "Talent Suites",
+            "logo": "../../Assets/company-logo/TALENT SUITES_LOGO.png",
+            "exhibitorLevel": "Bronze",
+            "location": "A33",
+            "bookmarked": false
+        },
+        {
+            "id": 60,
+            "name": "Takaful Ikhlas Berhad",
+            "logo": "../Assets/company-logo/Takaful_Ikhlas_Logo.jpg",
+            "exhibitorLevel": "Bronze",
+            "location": "A34",
+            "bookmarked": false
+        }
+    ]
+}

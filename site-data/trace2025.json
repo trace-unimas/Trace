@@ -1,0 +1,132 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "CIMB",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FCIMB_BERHAD_CIMB_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A17",
+            "bookmarked": false
+        },
+        {
+            "id": 2,
+            "name": "PUBLIC BANK",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FPUBLIC_BANK_BERHAD_PBB_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A3",
+            "bookmarked": false
+        },
+        {
+            "id": 3,
+            "name": "CROWE",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FCROWE_MALAYSIA_Crowe_PMS130%2B2821_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A8",
+            "bookmarked": false
+        },
+        {
+            "id": 4,
+            "name": "TEACH FOR MALAYSIA",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FTEACH_FOR_MALAYSIA_Teach_For_Malaysia_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A5",
+            "bookmarked": false
+        },
+        {
+            "id": 5,
+            "name": "Ernst & Young",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FEY_Beam_STFWC_Stacked_RGB_OffBlack_Yellow_EN_3.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A16",
+            "bookmarked": false
+        },
+        {
+            "id": 6,
+            "name": "Dynaciate Engineering",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FDYNACIATE_DESB_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A34",
+            "bookmarked": false
+        },
+        {
+            "id": 7,
+            "name": "Shin Yang",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FSHIN_YANG_CORPORATE_SERVICES_Shin_Yang_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A35/A36",
+            "bookmarked": false
+        },
+        {
+            "id": 8,
+            "name": "Samling",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FSAMLING_Samling_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A27",
+            "bookmarked": false
+        },
+        {
+            "id": 9,
+            "name": "SCORE EPCC",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FSCORE_EPCC_SCORE_EPCC_1.jpg?alt=media",
+            "exhibitorLevel": "Gold",
+            "location": "G5",
+            "bookmarked": false
+        },
+        {
+            "id": 10,
+            "name": "Victorius Realty",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FVICTOROUS_REALTY_VRSB1_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A2",
+            "bookmarked": false
+        },
+        {
+            "id": 11,
+            "name": "Sarawak Energy",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FSARAWAK_ENERGY_BERHAD_High_Res_Compact_1.png?alt=media",
+            "exhibitorLevel": "Gold",
+            "location": "G1",
+            "bookmarked": false
+        },
+        {
+            "id": 12,
+            "name": "SARAWAK OIL PALMS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FSARAWAK_OIL_PALMS_SOPNEW_1.jpg?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S6",
+            "bookmarked": false
+        },
+        {
+            "id": 13,
+            "name": "OCIM TERRASUS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FOCI_TERRASUS_2_OCI_Terrasus_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "/",
+            "bookmarked": false
+        },
+        {
+            "id": 14,
+            "name": "WEIDA RESOURCE",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FWeida-Logo.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "/",
+            "bookmarked": false
+        },
+        {
+            "id": 15,
+            "name": "PRESS METAL",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FPress-Metal_logo.png?alt=media",
+            "exhibitorLevel": "Platinum",
+            "location": "P4",
+            "bookmarked": false
+        },
+        {
+            "id": 16,
+            "name": "PwC",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FPwC_fl_160mmh_c.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A11",
+            "bookmarked": false
+        }
+    ]
+}
