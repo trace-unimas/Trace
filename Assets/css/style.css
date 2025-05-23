@@ -111,8 +111,6 @@ body {
 	z-index: 1;
 }
 
-
-
 .navbar .nav-link {
 	position: relative;
 	overflow: hidden; /* Keeps the line from extending outside */
@@ -368,6 +366,11 @@ body {
 .background-nav-hero {
 	position: relative;
 	z-index: 1;
+}
+
+.flip-image {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
 }
 
 @media (max-width: 991px) {
