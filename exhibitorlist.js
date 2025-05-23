@@ -42,27 +42,50 @@ const levelPriority = {
 	Silver: 3,
 	Standard: 4,
 };
+function extractLocationParts(location) {
+	if (!location) return ["", Infinity]; // defensive check
 
-// Extract numeric part from location
-function getLocationNumber(location) {
-	const match = location.match(/\d+/);
-	return match ? parseInt(match[0], 10) : Infinity;
+	location = location.toUpperCase(); // normalize
+
+	const match = location.match(/^([A-Z]+)(\d+)/);
+	if (match) {
+		return [match[1], parseInt(match[2], 10)];
+	}
+
+	const compoundMatch = location.match(/^([A-Z]+)(\d+\/\d+)/);
+	if (compoundMatch) {
+		const nums = compoundMatch[2].split("/").map((n) => parseInt(n, 10));
+		return [compoundMatch[1], Math.min(...nums)];
+	}
+
+	return ["", Infinity];
 }
 
-// Sort companies based on exhibitor level and location
+const locationPrefixOrder = {
+	A: 1,
+	B: 2,
+	G: 3,
+	S: 4,
+	P: 5,
+	Z: 99, // fallback
+};
+
 function sortCompaniesByLevelAndLocation(companies) {
 	return companies.sort((a, b) => {
-		// Compare levels first
-		const priorityA = levelPriority[a.exhibitorLevel] || 5;
-		const priorityB = levelPriority[b.exhibitorLevel] || 5;
-		if (priorityA !== priorityB) {
-			return priorityA - priorityB;
-		}
+		const priorityA = levelPriority[a.exhibitorLevel] || 99;
+		const priorityB = levelPriority[b.exhibitorLevel] || 99;
 
-		// If levels are equal, compare by numeric location
-		const locA = getLocationNumber(a.location);
-		const locB = getLocationNumber(b.location);
-		return locA - locB;
+		if (priorityA !== priorityB) return priorityA - priorityB;
+
+		const [prefixA, numA] = extractLocationParts(a.location);
+		const [prefixB, numB] = extractLocationParts(b.location);
+
+		const orderA = locationPrefixOrder[prefixA] || 99;
+		const orderB = locationPrefixOrder[prefixB] || 99;
+
+		if (orderA !== orderB) return orderA - orderB;
+
+		return numA - numB;
 	});
 }
 

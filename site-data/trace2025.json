@@ -97,19 +97,11 @@
             "bookmarked": false
         },
         {
-            "id": 13,
-            "name": "OCIM TERRASUS",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FOCI_TERRASUS_2_OCI_Terrasus_1.png?alt=media",
-            "exhibitorLevel": "Standard",
-            "location": "/",
-            "bookmarked": false
-        },
-        {
             "id": 14,
             "name": "WEIDA RESOURCE",
             "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FWeida-Logo.jpg?alt=media",
-            "exhibitorLevel": "Standard",
-            "location": "/",
+            "exhibitorLevel": "Silver",
+            "location": "S5",
             "bookmarked": false
         },
         {
@@ -126,6 +118,70 @@
             "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FPwC_fl_160mmh_c.jpg?alt=media",
             "exhibitorLevel": "Standard",
             "location": "A11",
+            "bookmarked": false
+        },
+        {
+            "id": 17,
+            "name": "Hii & Hii",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FHII%20%26%20HII.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A4",
+            "bookmarked": false
+        },
+        {
+            "id": 18,
+            "name": "WeMAL Technology Sdn Bhd",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FWeMAL%20logo-big.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A10",
+            "bookmarked": false
+        },
+        {
+            "id": 19,
+            "name": "SKL SDN BHD",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FSumpit%20Ke%20Langit%20Logo.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A22",
+            "bookmarked": false
+        },
+        {
+            "id": 20,
+            "name": "GAMUDA",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FGAMUDA%20LOGO.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S12",
+            "bookmarked": false
+        },
+        {
+            "id": 21,
+            "name": "CENTEXS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FLOGO%20CENTEXS.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S1",
+            "bookmarked": false
+        },
+        {
+            "id": 22,
+            "name": "HABIB JEWELS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FHABIB%20GROUP.png?alt=media",
+            "exhibitorLevel": "Platinum",
+            "location": "P5",
+            "bookmarked": false
+        },
+        {
+            "id": 23,
+            "name": "TalentCorp",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FLogo%20TCG%20_English.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A26",
+            "bookmarked": false
+        },
+        {
+            "id": 24,
+            "name": "MCC 22",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FMCC22_logo.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A13",
             "bookmarked": false
         }
     ]

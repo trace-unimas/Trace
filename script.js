@@ -415,7 +415,7 @@ videos.forEach((video, index) => {
 	const isActive = index === 0 ? "active" : "";
 	const carouselItem = `
           <div class="carousel-item ${isActive}">
-              <div class="ratio ratio-16x9">
+              <div class="responsive-iframe">
                   <iframe id="video${index}" 
                           src="https://www.youtube.com/embed/${video.id}?enablejsapi=1" 
                           title="${video.title}" 
@@ -458,17 +458,3 @@ const tag = document.createElement("script");
 tag.src = "https://www.youtube.com/iframe_api";
 const firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-// Update iframe height for all videos
-function updateIframeHeight() {
-	const navbar = document.querySelector(".navbar");
-	const navbarHeight = navbar.offsetHeight;
-	const iframes = document.querySelectorAll(".carousel-item iframe");
-	iframes.forEach((iframe) => {
-		iframe.style.height = `calc(100vh - ${navbarHeight}px)`;
-	});
-}
-
-// Update height on page load and when window is resized
-window.addEventListener("load", updateIframeHeight);
-window.addEventListener("resize", updateIframeHeight);

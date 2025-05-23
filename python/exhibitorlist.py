@@ -68,7 +68,14 @@ def save_json(data, file_path):
 def add_company(file_path):
     try:
         # User input for company details
-        company_id = int(Prompt.ask("Enter company ID"))
+        # Load existing data
+        data = load_or_create_json(file_path)
+
+        # Automatically get the next ID
+        if data["companies"]:
+            company_id = max(company["id"] for company in data["companies"]) + 1
+        else:
+            company_id = 1
         name = Prompt.ask("Enter company name")
         gs_link = Prompt.ask("Enter gs:// logo link")
         location = Prompt.ask("Enter location (e.g., P1/8)")
