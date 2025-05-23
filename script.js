@@ -390,15 +390,11 @@ const videos = [
 		title:
 			"TRACE 2024 INTERVIEW | Tan Sri Datuk Seri Panglima Sulong Matjeraie",
 	},
-	{ id: "ej9aVYDFt8c", title: "TRACE 2024 INTERVIEW | Syazwan" },
 	{
 		id: "7LFRbW69zL8",
 		title: "TRACE 2024 INTERVIEW | Prof Dr Ahmad Hata Rasit",
 	},
-	{
-		id: "mPeTwvbcv2U ",
-		title: "TRACE 2024 INTERVIEW | Muhammad Zikri Bin Roslan",
-	},
+
 	{
 		id: "JDZ5JTT5hfQ",
 		title: "TRACE 2024 INTERVIEW | Datuk Len Talif Salleh",
@@ -458,3 +454,9 @@ const tag = document.createElement("script");
 tag.src = "https://www.youtube.com/iframe_api";
 const firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+function scrollCarousel(direction) {
+	const container = document.getElementById("imageCarousel");
+	const scrollAmount = container.querySelector("img").offsetWidth + 16; // 16px gap
+	container.scrollBy({ left: direction * scrollAmount, behavior: "smooth" });
+}
