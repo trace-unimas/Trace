@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>
-			TRACE 2025 | UNIMAS TRACE - Talent Recruitment and Career Exhibition
+			TRACE Tour | UNIMAS TRACE - Talent Recruitment and Career Exhibition
 		</title>
 		<meta
 			name="description"
@@ -24,6 +24,9 @@
 		<link rel="stylesheet" href="../Assets/css/style.css" />
 		<link rel="stylesheet" href="../Assets/css/fonts.css" />
 		<link rel="stylesheet" href="../Assets/css/events.css" />
+		<link
+			href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+			rel="stylesheet" />
 		<link
 			rel="icon"
 			type="image/x-icon"
@@ -88,94 +91,69 @@
 		<main data-scroll-container>
 			<div class="title-header" data-scroll-section>
 				<div class="">
-					<h1 class="title-text">Trace 2025</h1>
+					<h1 class="title-text">Trace Tour</h1>
 				</div>
 			</div>
 
-			<div class="hero-title-container trace2025" data-scroll-section>
-				<div class="hero-title-text">
-					<h1>Trace 2025</h1>
-					<h2>17-18 June 2025</h2>
-					<h3>
-						Dewan Tunku Abdul Rahman (DeTAR) Putra Universiti Malaysia Sarawak
-					</h3>
-				</div>
-			</div>
-
-			<div class="sub-events" data-scroll-section>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<a href="gpp2025.html" data-scroll data-scroll-speed="1.2">
-								<div class="col-md-12 card-pos">
-									<div class="event-card event-card-image-gpp">
-										<div class="event-text">
-											Graduate Professional Programme
-											<div class="line-white"></div>
-										</div>
-										<!-- Button Container -->
-										<div class="container-button">
-											<a href="gpp2025.html" class="learn-more-btn"
-												>Learn More >
-											</a>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-6">
-							<a href="tracetour2025.html" data-scroll data-scroll-speed="1.4">
-								<div class="col-md-12 card-pos">
-									<div class="event-card event-card-image-tracetour">
-										<div class="event-text">
-											TRACE Tour
-											<div class="line-white"></div>
-										</div>
-										<!-- Button Container -->
-										<div class="container-button">
-											<a href="tracetour2025.html" class="learn-more-btn"
-												>Learn More >
-											</a>
-										</div>
-									</div>
-								</div>
-							</a>
+			<div class="container mt-5" data-scroll-section>
+				<!-- Filter Pills -->
+				<div class="row mb-5">
+					<div class="col-12">
+						<div class="filter-pills text-center">
+							<div
+								id="filterContainer"
+								class="d-flex flex-wrap justify-content-center gap-2">
+								<!-- Filter buttons will be generated here -->
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="download-flyers" data-scroll-section>
-				<div class="container d-flex flex-column align-items-center my-4">
-					<img
-						class="img-fluid w-50 rounded shadow"
-						src="../Assets/images/online-flyers-2025.jpg"
-						alt="Event Flyer" />
-					<a
-						href="../Assets/Online-Flyers-2025.pdf"
-						download="TRACE Online Flyers 2025.pdf"
-						class="mt-3 w-50">
-						<button class="guidebook-btn">Download Event Flyers</button>
-					</a>
+
+				<!-- Gallery Grid -->
+				<div class="gallery-row">
+					<div class="row g-4" id="galleryContainer">
+						<!-- Gallery items will be generated here -->
+					</div>
+				</div>
+
+				<!-- No Results Message -->
+				<div id="noResults" class="text-center text-black d-none">
+					<i class="bi bi-search display-1 mb-3"></i>
+					<h3>No images found</h3>
+					<p>Try selecting a different filter or check back later.</p>
 				</div>
 			</div>
-			<div class="exhibitor-section-list" data-scroll-section>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="section-title">Exhibitors</h1>
-							<div class="search-container">
-								<input
-									type="text"
-									class="search-bar"
-									placeholder="Search by name, industry or any expertise"
-									id="searchInput" />
-								<div class="filter-options">
-									<button id="showBookmarked" class="bookmark-filter">
-										Show Bookmarked ☆
-									</button>
-								</div>
+
+			<!-- Bootstrap Modal for Lightbox -->
+			<div
+				class="modal fade"
+				id="lightboxModal"
+				tabindex="-1"
+				aria-labelledby="lightboxModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog modal-xl modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="lightboxModalLabel">Image Title</h5>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"></button>
+						</div>
+						<div class="modal-body text-center p-0">
+							<img id="lightboxImage" src="" alt="" class="lightbox-img" />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="nav-btn" id="prevBtn">
+								<i class="bx bx-chevron-left"></i>
+							</button>
+							<div id="lightboxTags" class="mx-3">
+								<!-- Tags will be displayed here -->
 							</div>
-							<div id="companyList"></div>
+							<button type="button" class="nav-btn" id="nextBtn">
+								<i class="bx bx-chevron-right"></i>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -186,7 +164,7 @@
 					<div class="row">
 						<div class="col-md-4">
 							<h1 class="footer-title">Socials</h1>
-							<div class="line-white"></div>
+							<div class="line-black"></div>
 							<div class="row">
 								<div class="col-md-12">
 									<a
@@ -336,7 +314,7 @@
 						</div>
 						<div class="col-md-4">
 							<h1 class="footer-title">Sitemap</h1>
-							<div class="line-white"></div>
+							<div class="line-black"></div>
 							<ul class="footer-list">
 								<li><a href="../index.html">Home</a></li>
 								<li><a href="../about.html">About</a></li>
@@ -364,6 +342,6 @@
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"></script>
 		<script src="../script.js"></script>
-		<script src="/exhibitorlist.js"></script>
+		<script src="gallery.js"></script>
 	</body>
 </html>
