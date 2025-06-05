@@ -1138,3 +1138,7 @@ body {
 .loading .gallery-row {
 	display: none;
 }
+
+.gallery-tracetour {
+	height: 350vh;
+}
