@@ -183,6 +183,190 @@
             "exhibitorLevel": "Standard",
             "location": "A13",
             "bookmarked": false
+        },
+        {
+            "id": 25,
+            "name": "Blankscript Consultants",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fblankskript_consultant_1_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A1",
+            "bookmarked": false
+        },
+        {
+            "id": 26,
+            "name": "FITRACH",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Ffitarch_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A6",
+            "bookmarked": false
+        },
+        {
+            "id": 27,
+            "name": "COLGATE",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fcolgate_palmolive_1_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A7",
+            "bookmarked": false
+        },
+        {
+            "id": 28,
+            "name": "SACOFA",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fsacofa_1_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A14",
+            "bookmarked": false
+        },
+        {
+            "id": 29,
+            "name": "Kaifa Technology",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fkaifa_technology_1_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A15",
+            "bookmarked": false
+        },
+        {
+            "id": 30,
+            "name": "Western Digital",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fwestern_digital_2.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A19",
+            "bookmarked": false
+        },
+        {
+            "id": 31,
+            "name": "SGK",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fsgk_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A23",
+            "bookmarked": false
+        },
+        {
+            "id": 32,
+            "name": "ONE MEDICARE",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fone_medicare_sdn_bhd_1_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A28",
+            "bookmarked": false
+        },
+        {
+            "id": 33,
+            "name": "PERSOLKELLY MALAYSIA",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fpersolkelly_3_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A37",
+            "bookmarked": false
+        },
+        {
+            "id": 34,
+            "name": "IG ICE CREAM SDN. BHD.",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fig_ice_cream_1_1.png?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A38",
+            "bookmarked": false
+        },
+        {
+            "id": 35,
+            "name": "EMART",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Femart_1_1.jpg?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S2",
+            "bookmarked": false
+        },
+        {
+            "id": 36,
+            "name": "TAIYO YUDEN",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Ftaiyo_yuden_sarawak_sdn_bhd_1.jpg?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S4",
+            "bookmarked": false
+        },
+        {
+            "id": 37,
+            "name": "SEDC",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fsedc_1_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S11",
+            "bookmarked": false
+        },
+        {
+            "id": 38,
+            "name": "NEUON AI",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fneuon_ai_1_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S13",
+            "bookmarked": false
+        },
+        {
+            "id": 39,
+            "name": "ALCHIP",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Falchip_technologies_1_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S15",
+            "bookmarked": false
+        },
+        {
+            "id": 40,
+            "name": "WATIMA TESTING AND DRILLING",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fwatima_testing_sdn_bhd_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S16",
+            "bookmarked": false
+        },
+        {
+            "id": 41,
+            "name": "TP Engineering Association",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Ftp_engineering_association_1_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S18",
+            "bookmarked": false
+        },
+        {
+            "id": 42,
+            "name": "Wehaya",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fwehaya_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S20",
+            "bookmarked": false
+        },
+        {
+            "id": 43,
+            "name": "SMD",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2FSMD%20Logo%20Intelligence%20Within%20%281%29.png?alt=media",
+            "exhibitorLevel": "Gold",
+            "location": "G2",
+            "bookmarked": false
+        },
+        {
+            "id": 44,
+            "name": "Melexis",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fmelexis_logo_1.png?alt=media",
+            "exhibitorLevel": "Gold",
+            "location": "G2",
+            "bookmarked": false
+        },
+        {
+            "id": 45,
+            "name": "Business Events Sarawak",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fbusiness_events_sarawak_1_1.png?alt=media",
+            "exhibitorLevel": "Gold",
+            "location": "G4",
+            "bookmarked": false
+        },
+        {
+            "id": 46,
+            "name": "MALTIMUR",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fmaltimur_1_1.png?alt=media",
+            "exhibitorLevel": "Platinum",
+            "location": "P1",
+            "bookmarked": false
+        },
+        {
+            "id": 47,
+            "name": "PETROS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fpetros_1_1.png?alt=media",
+            "exhibitorLevel": "Platinum",
+            "location": "P6",
+            "bookmarked": false
         }
     ]
 }
