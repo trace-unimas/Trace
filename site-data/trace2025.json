@@ -367,6 +367,94 @@
             "exhibitorLevel": "Platinum",
             "location": "P6",
             "bookmarked": false
+        },
+        {
+            "id": 48,
+            "name": "SD Guthrie",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fsd_guthrie_berhad_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S22",
+            "bookmarked": false
+        },
+        {
+            "id": 49,
+            "name": "OBYU",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fobyu_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S17",
+            "bookmarked": false
+        },
+        {
+            "id": 50,
+            "name": "CHEC Construction SDN BHD",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fchec_construction_m_sdn_bhd_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A21",
+            "bookmarked": false
+        },
+        {
+            "id": 51,
+            "name": "Perna Event System SDN BHD",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fperna_event_system_sdn_bhd_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A20",
+            "bookmarked": false
+        },
+        {
+            "id": 52,
+            "name": "Manulife Insurance (Malaysia) Berhad",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fmanulife_1.png?alt=media",
+            "exhibitorLevel": "Gold",
+            "location": "G7",
+            "bookmarked": false
+        },
+        {
+            "id": 53,
+            "name": "PayNet",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fpaynet_1.png?alt=media",
+            "exhibitorLevel": "Gold",
+            "location": "G6",
+            "bookmarked": false
+        },
+        {
+            "id": 54,
+            "name": "Normah Medical Specialist Centre",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fnormah_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A18",
+            "bookmarked": false
+        },
+        {
+            "id": 55,
+            "name": "Maxis Broadband Sdn.\u00a0Bhd.",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fmaxis_broadband_sdn_bhd_1.png?alt=media",
+            "exhibitorLevel": "Silver",
+            "location": "S21",
+            "bookmarked": false
+        },
+        {
+            "id": 56,
+            "name": "Merdeka Strategic Development Centre Sdn Bhd",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fmerdeka_strategic_development_centre_sdn_bhd_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A12",
+            "bookmarked": false
+        },
+        {
+            "id": 57,
+            "name": "Bank Islam Malaysia Berhad",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fbank_islam_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A39",
+            "bookmarked": false
+        },
+        {
+            "id": 58,
+            "name": "Public Mutual",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/trace-website.firebasestorage.app/o/CompanyLogo%2Fpublic_mutual_1.jpg?alt=media",
+            "exhibitorLevel": "Standard",
+            "location": "A24",
+            "bookmarked": false
         }
     ]
 }

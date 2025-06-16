@@ -1,8 +1,6 @@
 // exhibitorList.js
 
 // Constants
-const ITEMS_PER_PAGE = 30;
-let currentPage = 1;
 let showingBookmarkedOnly = false;
 let companies = [];
 
@@ -42,6 +40,7 @@ const levelPriority = {
 	Silver: 3,
 	Standard: 4,
 };
+
 function extractLocationParts(location) {
 	if (!location) return ["", Infinity]; // defensive check
 
@@ -91,7 +90,7 @@ function sortCompaniesByLevelAndLocation(companies) {
 
 // Render the company cards dynamically
 function renderCompanies(companiesData) {
-	// Sort companies by level and location before filtering or pagination
+	// Sort companies by level and location before filtering
 	const sortedCompanies = sortCompaniesByLevelAndLocation(companiesData);
 
 	const filteredCompanies = showingBookmarkedOnly
@@ -106,14 +105,10 @@ function renderCompanies(companiesData) {
 
 	companiesContainer.innerHTML = ""; // Clear existing content
 
-	// Get paginated companies for the current page
-	const paginatedCompanies = getPaginatedCompanies(
-		filteredCompanies,
-		currentPage
-	);
+	// Show all companies (no pagination)
 	const fragment = document.createDocumentFragment();
 
-	paginatedCompanies.forEach((company) => {
+	filteredCompanies.forEach((company, index) => {
 		const card = document.createElement("div");
 		card.className = "company-card";
 		const imgOnError = `this.onerror=null; this.src='../Assets/company-logo/placeholder.png';`;
@@ -133,7 +128,9 @@ function renderCompanies(companiesData) {
             </div>
             <div class="card-actions">
                 <span class="location-badge">${company.location}</span>
-                <button class="bookmark-btn" data-id="${company.id}">
+                <button class="bookmark-btn" data-id="${
+									company.id
+								}" style="cursor: pointer; border: none; background: none; font-size: 20px; padding: 5px;">
                     ${company.bookmarked ? "★" : "☆"}
                 </button>
             </div>
@@ -149,16 +146,11 @@ function renderCompanies(companiesData) {
 	}
 }
 
-// Get paginated companies for the current page
-function getPaginatedCompanies(companies, page) {
-	const startIndex = (page - 1) * ITEMS_PER_PAGE;
-	return companies.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-}
-
 // Event listeners for search and bookmark functionality
 function setupExhibitorEventListeners() {
 	const searchInput = document.getElementById("searchInput");
 	const bookmarkFilterBtn = document.getElementById("showBookmarked");
+	const companiesContainer = document.getElementById("companyList");
 
 	if (searchInput) {
 		searchInput.addEventListener(
@@ -171,7 +163,6 @@ function setupExhibitorEventListeners() {
 						company.exhibitorLevel.toLowerCase().includes(searchTerm) ||
 						company.location.toLowerCase().includes(searchTerm)
 				);
-				currentPage = 1;
 				renderCompanies(filteredCompanies);
 			}, 300)
 		);
@@ -183,8 +174,60 @@ function setupExhibitorEventListeners() {
 			bookmarkFilterBtn.textContent = showingBookmarkedOnly
 				? "Show All ★"
 				: "Show Bookmarked ☆";
-			currentPage = 1;
 			renderCompanies(companies);
+		});
+	}
+
+	// Event delegation for bookmark buttons (since they're created dynamically)
+	if (companiesContainer) {
+		companiesContainer.addEventListener("click", (e) => {
+			if (e.target.classList.contains("bookmark-btn")) {
+				const companyId = e.target.getAttribute("data-id");
+				toggleBookmark(companyId);
+			}
+		});
+	} else {
+		console.error("Companies container not found for event delegation!");
+	}
+}
+
+// Toggle bookmark status for a company
+function toggleBookmark(companyId) {
+	// Convert string ID to number for comparison (since HTML data attributes are strings)
+	const numericId = parseInt(companyId, 10);
+	const company = companies.find(
+		(c) => c.id === numericId || c.id === companyId
+	);
+
+	if (company) {
+		company.bookmarked = !company.bookmarked;
+
+		// Save bookmarks to localStorage
+		const bookmarkedCompanies = companies
+			.filter((c) => c.bookmarked)
+			.map((c) => c.id);
+		localStorage.setItem(
+			"bookmarkedCompanies",
+			JSON.stringify(bookmarkedCompanies)
+		);
+
+		// Re-render to update the display
+		renderCompanies(companies);
+	} else {
+		console.error("Company not found with ID:", companyId);
+	}
+}
+
+// Load bookmarks from localStorage
+function loadBookmarks() {
+	const saved = localStorage.getItem("bookmarkedCompanies");
+	if (saved) {
+		const bookmarkedIds = JSON.parse(saved);
+		companies.forEach((company) => {
+			// Handle both string and number IDs
+			company.bookmarked =
+				bookmarkedIds.includes(company.id) ||
+				bookmarkedIds.includes(String(company.id));
 		});
 	}
 }
@@ -217,6 +260,7 @@ async function initializeExhibitorList() {
 		);
 
 		if (companies.length > 0) {
+			loadBookmarks(); // Load saved bookmarks
 			renderCompanies(companies);
 			setupExhibitorEventListeners();
 		} else {
@@ -227,13 +271,6 @@ async function initializeExhibitorList() {
 	}
 }
 
-// Change the current page and re-render companies
-function changePage(direction) {
-	currentPage += direction;
-	if (currentPage < 1) currentPage = 1;
-	renderCompanies(companies);
-}
-
 // Expose the initialization function globally
 window.initializeExhibitorList = initializeExhibitorList;
 
@@ -241,12 +278,4 @@ document.addEventListener("DOMContentLoaded", function () {
 	initializeExhibitorList();
 });
 
-// Add these to your initializeExhibitorList function
-console.log("Page name:", pageName);
-console.log("File path:", filePath);
-console.log("Loaded companies:", companies.length);
-console.log(
-	"Container element exists:",
-	!!document.getElementById("companyList")
-);
 console.log("Page Name:", getPageName());
